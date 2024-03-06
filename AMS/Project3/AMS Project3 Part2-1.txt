@@ -1,0 +1,64 @@
+import pandas as pd
+import folium
+from sklearn.cluster import KMeans
+
+def cluster_and_plot(data, num_clusters):
+    # Select relevant features for clustering (e.g., latitude and longitude)
+    coordinates = data[['latitude', 'longitude']]
+
+    # Perform K-means clustering
+    kmeans = KMeans(n_clusters=num_clusters, random_state=0)
+    kmeans.fit(coordinates)
+
+    # Add cluster labels to the DataFrame
+    data['cluster_label'] = kmeans.labels_
+
+    # Initialize Folium map
+    map_clusters = folium.Map(location=[data['latitude'].mean(), data['longitude'].mean()], zoom_start=4)
+
+    # Set color scheme for the clusters
+    colors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow']
+
+    # Add markers to the map
+    for lat, lon, cluster_label in zip(data['latitude'], data['longitude'], data['cluster_label']):
+        folium.CircleMarker(
+            [lat, lon],
+            radius=5,
+            color=colors[cluster_label],
+            fill=True,
+            fill_color=colors[cluster_label],
+            fill_opacity=0.7).add_to(map_clusters)
+
+    # Save the map with a filename based on the number of clusters
+    map_clusters.save(f'clusters_map_{num_clusters}.html')
+
+    # Count occurrences of each cluster label
+    cluster_counts = data['cluster_label'].value_counts()
+
+    # Determine the most targeted cluster
+    most_targeted_cluster = cluster_counts.idxmax()
+
+    # Filter data for the most targeted cluster
+    most_targeted_data = data[data['cluster_label'] == most_targeted_cluster]
+
+    # Count occurrences of each state in the most targeted cluster
+    state_counts = most_targeted_data['state'].value_counts()
+
+    # Determine the most targeted state
+    most_targeted_state = state_counts.idxmax()
+
+    # Output the result
+    print(f"For {num_clusters} clusters: The most targeted cluster is Cluster {most_targeted_cluster+1}, with the most targeted state being {most_targeted_state}.")
+
+# Load data from CSV file into a DataFrame
+data = pd.read_csv('fatal-police-shootings-data-continental_US.csv')
+
+# Check for missing values and handle them if necessary
+data.dropna(inplace=True)  # Drop rows with missing values, if needed
+
+# Define a list of numbers of clusters
+num_clusters_list = [2, 3, 4, 5, 6]
+
+# Perform clustering and plotting for each number of clusters
+for num_clusters in num_clusters_list:
+    cluster_and_plot(data, num_clusters)
