@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b1df13b928bf76ff99263e378ffd0a69 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b1df13b928bf76ff99263e378ffd0a69" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b1df13b928bf76ff99263e378ffd0a69 = L.map(
+                "map_b1df13b928bf76ff99263e378ffd0a69",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f51828556e19835e7b184a05a79dcaf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0f51828556e19835e7b184a05a79dcaf.addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+            var marker_5f1071fd7cb89d6ebdf7a03febfe5795 = L.marker(
+                [35.0844, -106.651],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_2ce6b5b389aa2e8f9f0202d6d58acc78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dacd7596ffdc259918dcdd50b9f7920 = $(`<div id="html_3dacd7596ffdc259918dcdd50b9f7920" style="width: 100.0%; height: 100.0%;">Place: 312, Central Avenue Northwest, Martineztown-Santa Barbara, Downtown Albuquerque, Albuquerque, Bernalillo County, New Mexico, 87102, United States Location: (35.0844, -106.651) Fatalities: 0</div>`)[0];
+                popup_2ce6b5b389aa2e8f9f0202d6d58acc78.setContent(html_3dacd7596ffdc259918dcdd50b9f7920);
+            
+        
+
+        marker_5f1071fd7cb89d6ebdf7a03febfe5795.bindPopup(popup_2ce6b5b389aa2e8f9f0202d6d58acc78)
+        ;
+
+        
+    
+    
+            var marker_a2a133f659194702e46ab296031050df = L.marker(
+                [40.8451, -73.8649],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_543c94c2510bb71d06ebf7a99d4178f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d023ec9ab277283e71b04384bfe32238 = $(`<div id="html_d023ec9ab277283e71b04384bfe32238" style="width: 100.0%; height: 100.0%;">Place: 1740, Hunt Avenue, Van Nest, Bronx County, The Bronx, City of New York, New York, 10462, United States Location: (40.8451, -73.8649) Fatalities: 0</div>`)[0];
+                popup_543c94c2510bb71d06ebf7a99d4178f1.setContent(html_d023ec9ab277283e71b04384bfe32238);
+            
+        
+
+        marker_a2a133f659194702e46ab296031050df.bindPopup(popup_543c94c2510bb71d06ebf7a99d4178f1)
+        ;
+
+        
+    
+    
+            var marker_7d7c6f91a9bea2135f42aa161db6f3e3 = L.marker(
+                [25.765, -80.1943],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_b13b6d3025924e10aee94805c1658a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_820f2ccbdf9a1aaab1c7a37513a61060 = $(`<div id="html_820f2ccbdf9a1aaab1c7a37513a61060" style="width: 100.0%; height: 100.0%;">Place: Southwest 9th Street, Miami, Miami-Dade County, Florida, 33131, United States Location: (25.765, -80.1943) Fatalities: 0</div>`)[0];
+                popup_b13b6d3025924e10aee94805c1658a3d.setContent(html_820f2ccbdf9a1aaab1c7a37513a61060);
+            
+        
+
+        marker_7d7c6f91a9bea2135f42aa161db6f3e3.bindPopup(popup_b13b6d3025924e10aee94805c1658a3d)
+        ;
+
+        
+    
+    
+            var marker_c757a2e2fd12a6652f396bef4ecc0f1a = L.marker(
+                [45.5761, -122.725],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_b72e80fc86c9d468fe8b1951da7dcb4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c01e1db6b5fff4040d9ed0634f7edb3b = $(`<div id="html_c01e1db6b5fff4040d9ed0634f7edb3b" style="width: 100.0%; height: 100.0%;">Place: 5118, North Yale Street, University Park, Portland, Multnomah County, Oregon, 97203, United States Location: (45.5761, -122.725) Fatalities: 0</div>`)[0];
+                popup_b72e80fc86c9d468fe8b1951da7dcb4d.setContent(html_c01e1db6b5fff4040d9ed0634f7edb3b);
+            
+        
+
+        marker_c757a2e2fd12a6652f396bef4ecc0f1a.bindPopup(popup_b72e80fc86c9d468fe8b1951da7dcb4d)
+        ;
+
+        
+    
+    
+            var marker_6a40aee6dc0ecfe30c91b68dec78a12f = L.marker(
+                [34.0693, -118.312],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_d007dfdff72bdb1e143636332f4015f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b312e124384b48672dfafa59fb1ed9b = $(`<div id="html_1b312e124384b48672dfafa59fb1ed9b" style="width: 100.0%; height: 100.0%;">Place: 4455, West 3rd Street, Wilton Historic District, Koreatown, Los Angeles, Los Angeles County, California, 90020, United States Location: (34.0693, -118.312) Fatalities: 0</div>`)[0];
+                popup_d007dfdff72bdb1e143636332f4015f9.setContent(html_1b312e124384b48672dfafa59fb1ed9b);
+            
+        
+
+        marker_6a40aee6dc0ecfe30c91b68dec78a12f.bindPopup(popup_d007dfdff72bdb1e143636332f4015f9)
+        ;
+
+        
+    
+    
+            var marker_e02b186742e00e9f6454f35b375d5dc7 = L.marker(
+                [42.737, -84.4839],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_cc44eefdef017261f70f5e946965a54a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff52c28acb08a0aa24fc76d203af3fe = $(`<div id="html_aff52c28acb08a0aa24fc76d203af3fe" style="width: 100.0%; height: 100.0%;">Place: 337, Abbot Road, Bailey, East Lansing, Ingham County, Michigan, 48823, United States Location: (42.737, -84.4839) Fatalities: 0</div>`)[0];
+                popup_cc44eefdef017261f70f5e946965a54a.setContent(html_aff52c28acb08a0aa24fc76d203af3fe);
+            
+        
+
+        marker_e02b186742e00e9f6454f35b375d5dc7.bindPopup(popup_cc44eefdef017261f70f5e946965a54a)
+        ;
+
+        
+    
+    
+            var marker_98d6166f8e41c15385b00008e3622098 = L.marker(
+                [36.7373, -119.786],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_9f98f2bd7a003e49dc0dc750ffa04870 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a204b03253578d2841f6f6a5410e81a = $(`<div id="html_0a204b03253578d2841f6f6a5410e81a" style="width: 100.0%; height: 100.0%;">Place: O Street, Fresno, Fresno County, California, 93721, United States Location: (36.7373, -119.786) Fatalities: 0</div>`)[0];
+                popup_9f98f2bd7a003e49dc0dc750ffa04870.setContent(html_0a204b03253578d2841f6f6a5410e81a);
+            
+        
+
+        marker_98d6166f8e41c15385b00008e3622098.bindPopup(popup_9f98f2bd7a003e49dc0dc750ffa04870)
+        ;
+
+        
+    
+    
+            var marker_2f1e21cdc685fbf63022c5fbd62ba026 = L.marker(
+                [34.0693, -118.312],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_d095154645d012610e0bfe31ac9e6e83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26680477bf7a3033d3a619c949685e2e = $(`<div id="html_26680477bf7a3033d3a619c949685e2e" style="width: 100.0%; height: 100.0%;">Place: 4455, West 3rd Street, Wilton Historic District, Koreatown, Los Angeles, Los Angeles County, California, 90020, United States Location: (34.0693, -118.312) Fatalities: 0</div>`)[0];
+                popup_d095154645d012610e0bfe31ac9e6e83.setContent(html_26680477bf7a3033d3a619c949685e2e);
+            
+        
+
+        marker_2f1e21cdc685fbf63022c5fbd62ba026.bindPopup(popup_d095154645d012610e0bfe31ac9e6e83)
+        ;
+
+        
+    
+    
+            var marker_dab099fbdcc6414636ec0afaf8afaebb = L.marker(
+                [33.7559, -84.3898],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_339a69c605cb039fe78112d8c36a1d09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82c1c52d1f77fb2b434a289b036f4755 = $(`<div id="html_82c1c52d1f77fb2b434a289b036f4755" style="width: 100.0%; height: 100.0%;">Place: Healey Building, 57, Forsyth Street Northwest, Five Points, Atlanta, Fulton County, Georgia, 30303, United States Location: (33.7559, -84.3898) Fatalities: 0</div>`)[0];
+                popup_339a69c605cb039fe78112d8c36a1d09.setContent(html_82c1c52d1f77fb2b434a289b036f4755);
+            
+        
+
+        marker_dab099fbdcc6414636ec0afaf8afaebb.bindPopup(popup_339a69c605cb039fe78112d8c36a1d09)
+        ;
+
+        
+    
+    
+            var marker_661037417bd0d17ef1c6419ed690ec1a = L.marker(
+                [37.7793, -122.419],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_a110e4e56a6b746ba0abf52d535b7df5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e822dba9f553353074d0050c4226c621 = $(`<div id="html_e822dba9f553353074d0050c4226c621" style="width: 100.0%; height: 100.0%;">Place: San Francisco City Hall, 1, Polk Street, Civic Center, San Francisco, California, 94102, United States Location: (37.7793, -122.419) Fatalities: 0</div>`)[0];
+                popup_a110e4e56a6b746ba0abf52d535b7df5.setContent(html_e822dba9f553353074d0050c4226c621);
+            
+        
+
+        marker_661037417bd0d17ef1c6419ed690ec1a.bindPopup(popup_a110e4e56a6b746ba0abf52d535b7df5)
+        ;
+
+        
+    
+    
+            var marker_01739eed9866a4c22c772dbf84edc512 = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_08d7d28f785ccc2eb580969840c68539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62d9efdce2f09a2be805ac0c1475cbe2 = $(`<div id="html_62d9efdce2f09a2be805ac0c1475cbe2" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_08d7d28f785ccc2eb580969840c68539.setContent(html_62d9efdce2f09a2be805ac0c1475cbe2);
+            
+        
+
+        marker_01739eed9866a4c22c772dbf84edc512.bindPopup(popup_08d7d28f785ccc2eb580969840c68539)
+        ;
+
+        
+    
+    
+            var marker_e22323ac5e9470063186ab5da0f0f5b9 = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_9b32a814dbb0dc2fb1817676ebd7d54b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bec9aa4a846dcee0b98cac5f2c600c57 = $(`<div id="html_bec9aa4a846dcee0b98cac5f2c600c57" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_9b32a814dbb0dc2fb1817676ebd7d54b.setContent(html_bec9aa4a846dcee0b98cac5f2c600c57);
+            
+        
+
+        marker_e22323ac5e9470063186ab5da0f0f5b9.bindPopup(popup_9b32a814dbb0dc2fb1817676ebd7d54b)
+        ;
+
+        
+    
+    
+            var marker_9f7be2f533edee6dafef159c597697d1 = L.marker(
+                [33.7559, -84.3898],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_3b91d03304e5ed667de9566b4642f5eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b36eb9cd5e80703c23c8d0e17713e71 = $(`<div id="html_1b36eb9cd5e80703c23c8d0e17713e71" style="width: 100.0%; height: 100.0%;">Place: Healey Building, 57, Forsyth Street Northwest, Five Points, Atlanta, Fulton County, Georgia, 30303, United States Location: (33.7559, -84.3898) Fatalities: 0</div>`)[0];
+                popup_3b91d03304e5ed667de9566b4642f5eb.setContent(html_1b36eb9cd5e80703c23c8d0e17713e71);
+            
+        
+
+        marker_9f7be2f533edee6dafef159c597697d1.bindPopup(popup_3b91d03304e5ed667de9566b4642f5eb)
+        ;
+
+        
+    
+    
+            var marker_2039c77355d77026f3170ac545e37363 = L.marker(
+                [39.1013, -94.5789],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_5bd44b8cf9652b08aa00ef0ada170a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3ba5487562b66f97388404285c0a216 = $(`<div id="html_d3ba5487562b66f97388404285c0a216" style="width: 100.0%; height: 100.0%;">Place: Oak Tower, 324, East 11th Street, Central Downtown, Central Business District KC, Downtown Kansas City, Kansas City, Jackson County, Missouri, 64106, United States Location: (39.1013, -94.5789) Fatalities: 0</div>`)[0];
+                popup_5bd44b8cf9652b08aa00ef0ada170a3d.setContent(html_d3ba5487562b66f97388404285c0a216);
+            
+        
+
+        marker_2039c77355d77026f3170ac545e37363.bindPopup(popup_5bd44b8cf9652b08aa00ef0ada170a3d)
+        ;
+
+        
+    
+    
+            var marker_6a98a2ccb45ce5787ca263770e354d40 = L.marker(
+                [40.6904, -73.9862],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_d408d3f87d20edcb282206eabc8001bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2e911045a30fa0edd0aa68cfcdfe2e0 = $(`<div id="html_d2e911045a30fa0edd0aa68cfcdfe2e0" style="width: 100.0%; height: 100.0%;">Place: 408, Fulton Mall, Brooklyn, Kings County, City of New York, New York, 11201, United States Location: (40.6904, -73.9862) Fatalities: 0</div>`)[0];
+                popup_d408d3f87d20edcb282206eabc8001bd.setContent(html_d2e911045a30fa0edd0aa68cfcdfe2e0);
+            
+        
+
+        marker_6a98a2ccb45ce5787ca263770e354d40.bindPopup(popup_d408d3f87d20edcb282206eabc8001bd)
+        ;
+
+        
+    
+    
+            var marker_03ec0c37b2ea9b8cefd233a471650d37 = L.marker(
+                [38.5799, -121.496],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_2de542415dad86df5f368fee91f3e30d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43f69eeaf038006832eb0d3e1e3fce81 = $(`<div id="html_43f69eeaf038006832eb0d3e1e3fce81" style="width: 100.0%; height: 100.0%;">Place: 818, K Street, Downtown, Sacramento, Sacramento County, California, 95814, United States Location: (38.5799, -121.496) Fatalities: 0</div>`)[0];
+                popup_2de542415dad86df5f368fee91f3e30d.setContent(html_43f69eeaf038006832eb0d3e1e3fce81);
+            
+        
+
+        marker_03ec0c37b2ea9b8cefd233a471650d37.bindPopup(popup_2de542415dad86df5f368fee91f3e30d)
+        ;
+
+        
+    
+    
+            var marker_71b8545cc96445cb16f7b8f1baf153f4 = L.marker(
+                [33.9891, -118.293],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_f062146759cf2983aea72ab731bb7aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2641e4f9c9a088690e853ec8601203 = $(`<div id="html_af2641e4f9c9a088690e853ec8601203" style="width: 100.0%; height: 100.0%;">Place: 1066, West Slauson Avenue, Wildasin, Los Angeles, California, 90044, United States Location: (33.9891, -118.293) Fatalities: 0</div>`)[0];
+                popup_f062146759cf2983aea72ab731bb7aaa.setContent(html_af2641e4f9c9a088690e853ec8601203);
+            
+        
+
+        marker_71b8545cc96445cb16f7b8f1baf153f4.bindPopup(popup_f062146759cf2983aea72ab731bb7aaa)
+        ;
+
+        
+    
+    
+            var marker_4c94e3b5a964923467e7c61f7ee59ac0 = L.marker(
+                [33.103, -96.6703],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_12f9ed4314ed91b166e1cb89b611e365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_765432754c3a014b59404bfc8557cba0 = $(`<div id="html_765432754c3a014b59404bfc8557cba0" style="width: 100.0%; height: 100.0%;">Place: West Main Street, Downtown Allen, Allen, Collin County, Texas, 75003, United States Location: (33.103, -96.6703) Fatalities: 0</div>`)[0];
+                popup_12f9ed4314ed91b166e1cb89b611e365.setContent(html_765432754c3a014b59404bfc8557cba0);
+            
+        
+
+        marker_4c94e3b5a964923467e7c61f7ee59ac0.bindPopup(popup_12f9ed4314ed91b166e1cb89b611e365)
+        ;
+
+        
+    
+    
+            var marker_01c235703973580ceefc0d7c7eead622 = L.marker(
+                [38.8455, -77.316],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_a57635331424dfdfebfac9d1462dc211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b6358a65e0369fd981234f936966ea3 = $(`<div id="html_3b6358a65e0369fd981234f936966ea3" style="width: 100.0%; height: 100.0%;">Place: Sutherland Place, Ardmore, Fairfax, Fairfax (city), Virginia, 22030, United States Location: (38.8455, -77.316) Fatalities: 0</div>`)[0];
+                popup_a57635331424dfdfebfac9d1462dc211.setContent(html_3b6358a65e0369fd981234f936966ea3);
+            
+        
+
+        marker_01c235703973580ceefc0d7c7eead622.bindPopup(popup_a57635331424dfdfebfac9d1462dc211)
+        ;
+
+        
+    
+    
+            var marker_ef6fce717f72948043a34115325cfba3 = L.marker(
+                [32.1506, -112.045],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_d9c8e2b431408013320aa500f2acca49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6d332e7ff24223e0cc9763009850cb = $(`<div id="html_cf6d332e7ff24223e0cc9763009850cb" style="width: 100.0%; height: 100.0%;">Place: Gu Achi District, Pima County, Arizona, United States Location: (32.1506, -112.045) Fatalities: 0</div>`)[0];
+                popup_d9c8e2b431408013320aa500f2acca49.setContent(html_cf6d332e7ff24223e0cc9763009850cb);
+            
+        
+
+        marker_ef6fce717f72948043a34115325cfba3.bindPopup(popup_d9c8e2b431408013320aa500f2acca49)
+        ;
+
+        
+    
+    
+            var marker_90d9436f97d313db86ba1e9c90dbb05d = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_e7b4a471d85047d921e2467801c2d452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a84801c8cddf927a1e597f9cb292949 = $(`<div id="html_9a84801c8cddf927a1e597f9cb292949" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_e7b4a471d85047d921e2467801c2d452.setContent(html_9a84801c8cddf927a1e597f9cb292949);
+            
+        
+
+        marker_90d9436f97d313db86ba1e9c90dbb05d.bindPopup(popup_e7b4a471d85047d921e2467801c2d452)
+        ;
+
+        
+    
+    
+            var marker_f5f41063276833a6b3a3b4f00f2274c3 = L.marker(
+                [38.9789, -76.4909],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_3b65bb1e53c5a602798ad95b4769a340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd5f5ac76fe11b9292fc93f7f79689c0 = $(`<div id="html_fd5f5ac76fe11b9292fc93f7f79689c0" style="width: 100.0%; height: 100.0%;">Place: Maryland State House, 100, State Circle, Annapolis, Anne Arundel County, Maryland, 21401, United States Location: (38.9789, -76.4909) Fatalities: 0</div>`)[0];
+                popup_3b65bb1e53c5a602798ad95b4769a340.setContent(html_fd5f5ac76fe11b9292fc93f7f79689c0);
+            
+        
+
+        marker_f5f41063276833a6b3a3b4f00f2274c3.bindPopup(popup_3b65bb1e53c5a602798ad95b4769a340)
+        ;
+
+        
+    
+    
+            var marker_6e982d8333ec828c51e40e036bec24b5 = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_90264afcf33399451a46771798d13052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75699100dd84a2c2af5a8790bb57119a = $(`<div id="html_75699100dd84a2c2af5a8790bb57119a" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_90264afcf33399451a46771798d13052.setContent(html_75699100dd84a2c2af5a8790bb57119a);
+            
+        
+
+        marker_6e982d8333ec828c51e40e036bec24b5.bindPopup(popup_90264afcf33399451a46771798d13052)
+        ;
+
+        
+    
+    
+            var marker_c686031afc6b44282df4bee7ebf01458 = L.marker(
+                [45.5234, -122.676],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_52a2ffedc000ce4339c62a54494257e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e21f53652a1b52468b20a6d3d03d8b5 = $(`<div id="html_4e21f53652a1b52468b20a6d3d03d8b5" style="width: 100.0%; height: 100.0%;">Place: Roseland Theater, 8, Northwest 6th Avenue, Chinatown, Old Town, Portland, Multnomah County, Oregon, 97209, United States Location: (45.5234, -122.676) Fatalities: 0</div>`)[0];
+                popup_52a2ffedc000ce4339c62a54494257e3.setContent(html_4e21f53652a1b52468b20a6d3d03d8b5);
+            
+        
+
+        marker_c686031afc6b44282df4bee7ebf01458.bindPopup(popup_52a2ffedc000ce4339c62a54494257e3)
+        ;
+
+        
+    
+    
+            var marker_3d72059482729688ad2fe542d6db8614 = L.marker(
+                [40.9581, -77.6167],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_4287f2e1b2d9a26430b7905ec132a367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a74fd01632fc075b3db50cbefbc6e4 = $(`<div id="html_02a74fd01632fc075b3db50cbefbc6e4" style="width: 100.0%; height: 100.0%;">Place: 2085, Nittany Valley Drive, Zion, Walker Township, Centre County, Pennsylvania, 16823, United States Location: (40.9581, -77.6167) Fatalities: 0</div>`)[0];
+                popup_4287f2e1b2d9a26430b7905ec132a367.setContent(html_02a74fd01632fc075b3db50cbefbc6e4);
+            
+        
+
+        marker_3d72059482729688ad2fe542d6db8614.bindPopup(popup_4287f2e1b2d9a26430b7905ec132a367)
+        ;
+
+        
+    
+    
+            var marker_31c23eebc257d5ae61d5022562098aef = L.marker(
+                [33.8664, -118.4],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_7394a1f207df355ea24b355effc2dc24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61840ea3033f378be2b64ae7f5cf443b = $(`<div id="html_61840ea3033f378be2b64ae7f5cf443b" style="width: 100.0%; height: 100.0%;">Place: 1743, Bayview Drive, Hermosa Beach, California, 90254, United States Location: (33.8664, -118.4) Fatalities: 0</div>`)[0];
+                popup_7394a1f207df355ea24b355effc2dc24.setContent(html_61840ea3033f378be2b64ae7f5cf443b);
+            
+        
+
+        marker_31c23eebc257d5ae61d5022562098aef.bindPopup(popup_7394a1f207df355ea24b355effc2dc24)
+        ;
+
+        
+    
+    
+            var marker_f2e5faa65a25126d5d4e56908aadf4cb = L.marker(
+                [40.6904, -73.9862],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_7f2bd68a597cbfbbc3e5f47c2291472a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51eeb0dd10b6f97f335e57b94e2bca5 = $(`<div id="html_e51eeb0dd10b6f97f335e57b94e2bca5" style="width: 100.0%; height: 100.0%;">Place: 408, Fulton Mall, Brooklyn, Kings County, City of New York, New York, 11201, United States Location: (40.6904, -73.9862) Fatalities: 0</div>`)[0];
+                popup_7f2bd68a597cbfbbc3e5f47c2291472a.setContent(html_e51eeb0dd10b6f97f335e57b94e2bca5);
+            
+        
+
+        marker_f2e5faa65a25126d5d4e56908aadf4cb.bindPopup(popup_7f2bd68a597cbfbbc3e5f47c2291472a)
+        ;
+
+        
+    
+    
+            var marker_06845bc14fb320fefd898555f3404fba = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_adf65a040822288eae800c5c2b611b5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52ecf2cef6008960dd6939a57bd96fcf = $(`<div id="html_52ecf2cef6008960dd6939a57bd96fcf" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_adf65a040822288eae800c5c2b611b5c.setContent(html_52ecf2cef6008960dd6939a57bd96fcf);
+            
+        
+
+        marker_06845bc14fb320fefd898555f3404fba.bindPopup(popup_adf65a040822288eae800c5c2b611b5c)
+        ;
+
+        
+    
+    
+            var marker_544bb7d4eb3d2226dbb96f42c695e0fd = L.marker(
+                [39.9525, -75.1636],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_84eb5deb2509b8be59f3d2310b4bf383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa56b2023d383da383b7b0d74004fd1b = $(`<div id="html_fa56b2023d383da383b7b0d74004fd1b" style="width: 100.0%; height: 100.0%;">Place: Philadelphia City Hall, 1, City Hall Walkways, Gayborhood, Center City, Philadelphia, Philadelphia County, Pennsylvania, 19107, United States Location: (39.9525, -75.1636) Fatalities: 0</div>`)[0];
+                popup_84eb5deb2509b8be59f3d2310b4bf383.setContent(html_fa56b2023d383da383b7b0d74004fd1b);
+            
+        
+
+        marker_544bb7d4eb3d2226dbb96f42c695e0fd.bindPopup(popup_84eb5deb2509b8be59f3d2310b4bf383)
+        ;
+
+        
+    
+    
+            var marker_1b51e3470a845bbe84d5a38af3802588 = L.marker(
+                [41.7947, -87.5932],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_74569c3bd884b38477b67ef5179a5964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eeb4dcd10bda34a7c7ba45d0d016c2cb = $(`<div id="html_eeb4dcd10bda34a7c7ba45d0d016c2cb" style="width: 100.0%; height: 100.0%;">Place: 5509, South Kenwood Avenue, Hyde Park, Chicago, Hyde Park Township, Cook County, Illinois, 60637, United States Location: (41.7947, -87.5932) Fatalities: 0</div>`)[0];
+                popup_74569c3bd884b38477b67ef5179a5964.setContent(html_eeb4dcd10bda34a7c7ba45d0d016c2cb);
+            
+        
+
+        marker_1b51e3470a845bbe84d5a38af3802588.bindPopup(popup_74569c3bd884b38477b67ef5179a5964)
+        ;
+
+        
+    
+    
+            var marker_e06d4f33ce7e9a6887f2c16e502cd0df = L.marker(
+                [42.5846, -87.824],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_475be84dd072c8a4399edae104876eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2071ede148cf7191cad3adbcd5b2cf0 = $(`<div id="html_b2071ede148cf7191cad3adbcd5b2cf0" style="width: 100.0%; height: 100.0%;">Place: Kenosha County Courthouse, 916, 56th Street, HarborPark, Kenosha, Kenosha County, Wisconsin, 53140, United States Location: (42.5846, -87.824) Fatalities: 0</div>`)[0];
+                popup_475be84dd072c8a4399edae104876eb1.setContent(html_b2071ede148cf7191cad3adbcd5b2cf0);
+            
+        
+
+        marker_e06d4f33ce7e9a6887f2c16e502cd0df.bindPopup(popup_475be84dd072c8a4399edae104876eb1)
+        ;
+
+        
+    
+    
+            var marker_85b01aed12d3a9c0a312fed20dc4c827 = L.marker(
+                [38.9098, -76.9761],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_b60ca66619d41b2a1a9e816862ae1957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f15579ac25c66fa81d5086abef8fec9d = $(`<div id="html_f15579ac25c66fa81d5086abef8fec9d" style="width: 100.0%; height: 100.0%;">Place: Azalea Road Northeast, Arboretum, Ward 5, Washington, District of Columbia, 20002, United States Location: (38.9098, -76.9761) Fatalities: 0</div>`)[0];
+                popup_b60ca66619d41b2a1a9e816862ae1957.setContent(html_f15579ac25c66fa81d5086abef8fec9d);
+            
+        
+
+        marker_85b01aed12d3a9c0a312fed20dc4c827.bindPopup(popup_b60ca66619d41b2a1a9e816862ae1957)
+        ;
+
+        
+    
+    
+            var marker_3f25b6add464ce7940aca42c3ff50983 = L.marker(
+                [33.7559, -84.3898],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_b8c993bbffc94d06fba90bf576241640 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0c33d8cc6aa90e0fe610025888f42c3 = $(`<div id="html_a0c33d8cc6aa90e0fe610025888f42c3" style="width: 100.0%; height: 100.0%;">Place: Healey Building, 57, Forsyth Street Northwest, Five Points, Atlanta, Fulton County, Georgia, 30303, United States Location: (33.7559, -84.3898) Fatalities: 0</div>`)[0];
+                popup_b8c993bbffc94d06fba90bf576241640.setContent(html_a0c33d8cc6aa90e0fe610025888f42c3);
+            
+        
+
+        marker_3f25b6add464ce7940aca42c3ff50983.bindPopup(popup_b8c993bbffc94d06fba90bf576241640)
+        ;
+
+        
+    
+    
+            var marker_902dc444441507de1654300ef5eac319 = L.marker(
+                [40.6904, -73.9862],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_3f6715a47729919e6dea37e0982f65dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e168b117e9c64d5f875e418a1720e22 = $(`<div id="html_3e168b117e9c64d5f875e418a1720e22" style="width: 100.0%; height: 100.0%;">Place: 408, Fulton Mall, Brooklyn, Kings County, City of New York, New York, 11201, United States Location: (40.6904, -73.9862) Fatalities: 0</div>`)[0];
+                popup_3f6715a47729919e6dea37e0982f65dd.setContent(html_3e168b117e9c64d5f875e418a1720e22);
+            
+        
+
+        marker_902dc444441507de1654300ef5eac319.bindPopup(popup_3f6715a47729919e6dea37e0982f65dd)
+        ;
+
+        
+    
+    
+            var marker_e73f3def6a2f400a4dc50c49a5f77209 = L.marker(
+                [40.6904, -73.9862],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_2294d1c2d3de208b8349554db2843dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b108a5ee4ed2d0c77d8d5b50503e8205 = $(`<div id="html_b108a5ee4ed2d0c77d8d5b50503e8205" style="width: 100.0%; height: 100.0%;">Place: 408, Fulton Mall, Brooklyn, Kings County, City of New York, New York, 11201, United States Location: (40.6904, -73.9862) Fatalities: 0</div>`)[0];
+                popup_2294d1c2d3de208b8349554db2843dc1.setContent(html_b108a5ee4ed2d0c77d8d5b50503e8205);
+            
+        
+
+        marker_e73f3def6a2f400a4dc50c49a5f77209.bindPopup(popup_2294d1c2d3de208b8349554db2843dc1)
+        ;
+
+        
+    
+    
+            var marker_8e990e3c0b1ffcd61188c6ddb0e975e1 = L.marker(
+                [47.6815, -122.209],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_6d5c71e1687374e06a61a86782a8d742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb94425f25316f824292649b0844278 = $(`<div id="html_0bb94425f25316f824292649b0844278" style="width: 100.0%; height: 100.0%;">Place: 807, 1st Street, Juanita, Kirkland, King County, Washington, 98033, United States Location: (47.6815, -122.209) Fatalities: 0</div>`)[0];
+                popup_6d5c71e1687374e06a61a86782a8d742.setContent(html_0bb94425f25316f824292649b0844278);
+            
+        
+
+        marker_8e990e3c0b1ffcd61188c6ddb0e975e1.bindPopup(popup_6d5c71e1687374e06a61a86782a8d742)
+        ;
+
+        
+    
+    
+            var marker_9657e28abdefc62d68299da235664efd = L.marker(
+                [40.6904, -73.9862],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_3aea921fc2e06238113b490cc7982440 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec107247e1a6bb6c0b1994f898952920 = $(`<div id="html_ec107247e1a6bb6c0b1994f898952920" style="width: 100.0%; height: 100.0%;">Place: 408, Fulton Mall, Brooklyn, Kings County, City of New York, New York, 11201, United States Location: (40.6904, -73.9862) Fatalities: 0</div>`)[0];
+                popup_3aea921fc2e06238113b490cc7982440.setContent(html_ec107247e1a6bb6c0b1994f898952920);
+            
+        
+
+        marker_9657e28abdefc62d68299da235664efd.bindPopup(popup_3aea921fc2e06238113b490cc7982440)
+        ;
+
+        
+    
+    
+            var marker_dd3fe0b6fb71ea166e1879d7ac421f3e = L.marker(
+                [41.627, -88.204],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_a62a14e24068e3d0a97c99ec729ff67c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7dd4b9b8389e92c7e8523fed0643e0c = $(`<div id="html_a7dd4b9b8389e92c7e8523fed0643e0c" style="width: 100.0%; height: 100.0%;">Place: 497, West Hazelcrest Drive, Plainfield, Will County, Illinois, 60544, United States Location: (41.627, -88.204) Fatalities: 0</div>`)[0];
+                popup_a62a14e24068e3d0a97c99ec729ff67c.setContent(html_a7dd4b9b8389e92c7e8523fed0643e0c);
+            
+        
+
+        marker_dd3fe0b6fb71ea166e1879d7ac421f3e.bindPopup(popup_a62a14e24068e3d0a97c99ec729ff67c)
+        ;
+
+        
+    
+    
+            var marker_3b14cd43d8fc3513ee291ee11972c8ae = L.marker(
+                [40.7308, -73.7958],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_e6923884d4ead659f0eae4e935168811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_931a9703963a359a3d74adb2af6a2c03 = $(`<div id="html_931a9703963a359a3d74adb2af6a2c03" style="width: 100.0%; height: 100.0%;">Place: 70-15, 174th Street, Fresh Meadows, Queens County, City of New York, New York, 11365, United States Location: (40.7308, -73.7958) Fatalities: 0</div>`)[0];
+                popup_e6923884d4ead659f0eae4e935168811.setContent(html_931a9703963a359a3d74adb2af6a2c03);
+            
+        
+
+        marker_3b14cd43d8fc3513ee291ee11972c8ae.bindPopup(popup_e6923884d4ead659f0eae4e935168811)
+        ;
+
+        
+    
+    
+            var marker_a932eeec182863ce916ac948e973b5f8 = L.marker(
+                [34.0395, -118.44],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_fea5d77a6e000c81e95c9fcc7b70e02e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b6b60b33fe4fd507ca059ed2c2b2615 = $(`<div id="html_8b6b60b33fe4fd507ca059ed2c2b2615" style="width: 100.0%; height: 100.0%;">Place: San Diego Freeway, Sawtelle Japantown, Sawtelle, Los Angeles, California, 90025, United States Location: (34.0395, -118.44) Fatalities: 0</div>`)[0];
+                popup_fea5d77a6e000c81e95c9fcc7b70e02e.setContent(html_8b6b60b33fe4fd507ca059ed2c2b2615);
+            
+        
+
+        marker_a932eeec182863ce916ac948e973b5f8.bindPopup(popup_fea5d77a6e000c81e95c9fcc7b70e02e)
+        ;
+
+        
+    
+    
+            var marker_400fd9545b593d42aa31587dc08b13bf = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_26e35a5dac54d49558693d5539951f86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9437af674bd6873e0f2426fa839ca92f = $(`<div id="html_9437af674bd6873e0f2426fa839ca92f" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_26e35a5dac54d49558693d5539951f86.setContent(html_9437af674bd6873e0f2426fa839ca92f);
+            
+        
+
+        marker_400fd9545b593d42aa31587dc08b13bf.bindPopup(popup_26e35a5dac54d49558693d5539951f86)
+        ;
+
+        
+    
+    
+            var marker_4d4f762fa1b291b274c2ed2b33a4c7b7 = L.marker(
+                [44.4759, -73.2121],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_23923479021d1cf636865b32c0137c93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2233a918e5946aa2fbda110a23c891c = $(`<div id="html_a2233a918e5946aa2fbda110a23c891c" style="width: 100.0%; height: 100.0%;">Place: Chittenden County Courthouse, 175, Main Street, Downtown, Burlington, Colchester, Chittenden County, Vermont, 05401, United States Location: (44.4759, -73.2121) Fatalities: 0</div>`)[0];
+                popup_23923479021d1cf636865b32c0137c93.setContent(html_a2233a918e5946aa2fbda110a23c891c);
+            
+        
+
+        marker_4d4f762fa1b291b274c2ed2b33a4c7b7.bindPopup(popup_23923479021d1cf636865b32c0137c93)
+        ;
+
+        
+    
+    
+            var marker_cdeb6891f7bd5297f69c5bf1cf31d589 = L.marker(
+                [40.7834, -73.9663],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_ae7691acb86af4e5df6ca4ba355d1d46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e01b8a4293366fc7094ed587c5e51c6 = $(`<div id="html_8e01b8a4293366fc7094ed587c5e51c6" style="width: 100.0%; height: 100.0%;">Place: 190, 86th Street Transverse, Manhattan, New York County, City of New York, New York, 10024, United States Location: (40.7834, -73.9663) Fatalities: 0</div>`)[0];
+                popup_ae7691acb86af4e5df6ca4ba355d1d46.setContent(html_8e01b8a4293366fc7094ed587c5e51c6);
+            
+        
+
+        marker_cdeb6891f7bd5297f69c5bf1cf31d589.bindPopup(popup_ae7691acb86af4e5df6ca4ba355d1d46)
+        ;
+
+        
+    
+    
+            var marker_f13aee9406337682c4eff32a45f9e57e = L.marker(
+                [37.7793, -122.419],
+                {}
+            ).addTo(map_b1df13b928bf76ff99263e378ffd0a69);
+        
+    
+        var popup_05615ac47f0b2fc510c9a48822564a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ca98c9abd8c0b191b363e1c53e73c5 = $(`<div id="html_a0ca98c9abd8c0b191b363e1c53e73c5" style="width: 100.0%; height: 100.0%;">Place: San Francisco City Hall, 1, Polk Street, Civic Center, San Francisco, California, 94102, United States Location: (37.7793, -122.419) Fatalities: 0</div>`)[0];
+                popup_05615ac47f0b2fc510c9a48822564a0f.setContent(html_a0ca98c9abd8c0b191b363e1c53e73c5);
+            
+        
+
+        marker_f13aee9406337682c4eff32a45f9e57e.bindPopup(popup_05615ac47f0b2fc510c9a48822564a0f)
+        ;
+
+        
+    
+</script>
+</html>
