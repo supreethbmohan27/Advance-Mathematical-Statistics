@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/8b19c6cb-3e69-46f6-afd4-bc0f47036ce1/Preliminary%20college%20year.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240325%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240325T212321Z&X-Amz-Expires=86400&X-Amz-Signature=aa012924784cc28cc2d1d0a4e9bc4b6a8e486e82871589dea4893d50565832b5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Preliminary%20college%20year.csv%22&response-content-type=text%2Fcsv&x-id=GetObject

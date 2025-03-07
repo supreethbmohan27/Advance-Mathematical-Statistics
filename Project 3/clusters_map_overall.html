@@ -1,0 +1,3956 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1810c75a1d3e034b63ed6bc590a714c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1810c75a1d3e034b63ed6bc590a714c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1810c75a1d3e034b63ed6bc590a714c8 = L.map(
+                "map_1810c75a1d3e034b63ed6bc590a714c8",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_025934c56d099709675cc776e40cbe1d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_025934c56d099709675cc776e40cbe1d.addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var marker_a847d073c1a0317225a8bd2520a13da4 = L.marker(
+                [34.05748717948718, -118.27825641025642],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var div_icon_e1e28db885e7119e78be0db9acafd62e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size: 12px\"\u003e\u003cb\u003eLos Angeles, CA\u003c/b\u003e\u003cbr\u003e44 incidents (H: 19, B: 12, W: 7, A: 1)\u003c/div\u003e"});
+            marker_a847d073c1a0317225a8bd2520a13da4.setIcon(div_icon_e1e28db885e7119e78be0db9acafd62e);
+        
+    
+            var marker_b6fd493669d789db5ab517bbc7650874 = L.marker(
+                [34.372, -118.57],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_5e9cca974e384f1abe95ba60510395c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6fd493669d789db5ab517bbc7650874.setIcon(icon_5e9cca974e384f1abe95ba60510395c5);
+        
+    
+        var popup_bfa11b306097bcb116a52db17279e355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc32086ba1d43c53a97bffe97cf9fbd = $(`<div id="html_cbc32086ba1d43c53a97bffe97cf9fbd" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_bfa11b306097bcb116a52db17279e355.setContent(html_cbc32086ba1d43c53a97bffe97cf9fbd);
+            
+        
+
+        marker_b6fd493669d789db5ab517bbc7650874.bindPopup(popup_bfa11b306097bcb116a52db17279e355)
+        ;
+
+        
+    
+    
+            var marker_317a10457a275a1b2837be1ed7cc201c = L.marker(
+                [34.212, -118.512],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_73fca5e86d47e07a0d4421db24d554d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_317a10457a275a1b2837be1ed7cc201c.setIcon(icon_73fca5e86d47e07a0d4421db24d554d2);
+        
+    
+        var popup_968fc7a99188a8becc762732caa8843e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52893ebc9c68ca462be00a6da489eab9 = $(`<div id="html_52893ebc9c68ca462be00a6da489eab9" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_968fc7a99188a8becc762732caa8843e.setContent(html_52893ebc9c68ca462be00a6da489eab9);
+            
+        
+
+        marker_317a10457a275a1b2837be1ed7cc201c.bindPopup(popup_968fc7a99188a8becc762732caa8843e)
+        ;
+
+        
+    
+    
+            var marker_bd5e8c2df8ab4c5eeb00b53d9424bd26 = L.marker(
+                [34.062, -118.502],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_f76c576be8aeacf4efeb7c517d40debf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd5e8c2df8ab4c5eeb00b53d9424bd26.setIcon(icon_f76c576be8aeacf4efeb7c517d40debf);
+        
+    
+        var popup_2a6028cd26f6df9ef6c979b0a658cc91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d0375e9d1608bca8ccaa33041cfe80c = $(`<div id="html_9d0375e9d1608bca8ccaa33041cfe80c" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_2a6028cd26f6df9ef6c979b0a658cc91.setContent(html_9d0375e9d1608bca8ccaa33041cfe80c);
+            
+        
+
+        marker_bd5e8c2df8ab4c5eeb00b53d9424bd26.bindPopup(popup_2a6028cd26f6df9ef6c979b0a658cc91)
+        ;
+
+        
+    
+    
+            var marker_6127f736c03ba589fde25a4b62f9512d = L.marker(
+                [34.008, -118.414],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_46cfa8788a6e31f4a40341a90d777680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6127f736c03ba589fde25a4b62f9512d.setIcon(icon_46cfa8788a6e31f4a40341a90d777680);
+        
+    
+        var popup_594d222abe619b2707e96cd74e2ca33a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_153245a7fca3979a3de194ecaac5c5cb = $(`<div id="html_153245a7fca3979a3de194ecaac5c5cb" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_594d222abe619b2707e96cd74e2ca33a.setContent(html_153245a7fca3979a3de194ecaac5c5cb);
+            
+        
+
+        marker_6127f736c03ba589fde25a4b62f9512d.bindPopup(popup_594d222abe619b2707e96cd74e2ca33a)
+        ;
+
+        
+    
+    
+            var marker_9c5f472158443839805440ba2381a79a = L.marker(
+                [34.322, -118.406],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4d7bf9c9683c64683715477468701ccb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c5f472158443839805440ba2381a79a.setIcon(icon_4d7bf9c9683c64683715477468701ccb);
+        
+    
+        var popup_c47aa9b558476627221042cc5c81d67e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c71a96e96fe412ada6054ff73a1ffe = $(`<div id="html_63c71a96e96fe412ada6054ff73a1ffe" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_c47aa9b558476627221042cc5c81d67e.setContent(html_63c71a96e96fe412ada6054ff73a1ffe);
+            
+        
+
+        marker_9c5f472158443839805440ba2381a79a.bindPopup(popup_c47aa9b558476627221042cc5c81d67e)
+        ;
+
+        
+    
+    
+            var marker_cdd60666cd6969712614ac22af5ae544 = L.marker(
+                [34.059, -118.344],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_ba13704a1aae21aa8dcd90094fb64efc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdd60666cd6969712614ac22af5ae544.setIcon(icon_ba13704a1aae21aa8dcd90094fb64efc);
+        
+    
+        var popup_96201d68f37b14603e5b3e5f5ad19c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b36fa3fc596ed63bfea50b9eb1254ea9 = $(`<div id="html_b36fa3fc596ed63bfea50b9eb1254ea9" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_96201d68f37b14603e5b3e5f5ad19c3e.setContent(html_b36fa3fc596ed63bfea50b9eb1254ea9);
+            
+        
+
+        marker_cdd60666cd6969712614ac22af5ae544.bindPopup(popup_96201d68f37b14603e5b3e5f5ad19c3e)
+        ;
+
+        
+    
+    
+            var marker_536efa9c0f1eb53952d467dbe99e1dc7 = L.marker(
+                [34.009, -118.343],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_61755d18191ee7e3b85ab22dfe8038fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_536efa9c0f1eb53952d467dbe99e1dc7.setIcon(icon_61755d18191ee7e3b85ab22dfe8038fa);
+        
+    
+        var popup_0fc61e93dcb7f6192900c4c81950c957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a47b35906132d52ec81fbc8e038afc8b = $(`<div id="html_a47b35906132d52ec81fbc8e038afc8b" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_0fc61e93dcb7f6192900c4c81950c957.setContent(html_a47b35906132d52ec81fbc8e038afc8b);
+            
+        
+
+        marker_536efa9c0f1eb53952d467dbe99e1dc7.bindPopup(popup_0fc61e93dcb7f6192900c4c81950c957)
+        ;
+
+        
+    
+    
+            var marker_5c496c25e2b4db2f430766cd84e6570c = L.marker(
+                [33.989, -118.333],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_6b143d280c29acc0e375479f985d9683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c496c25e2b4db2f430766cd84e6570c.setIcon(icon_6b143d280c29acc0e375479f985d9683);
+        
+    
+        var popup_e30f19c186f313a1b92879a4faa75745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad06cd06ebf7036c7ab2def8f6814b9a = $(`<div id="html_ad06cd06ebf7036c7ab2def8f6814b9a" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_e30f19c186f313a1b92879a4faa75745.setContent(html_ad06cd06ebf7036c7ab2def8f6814b9a);
+            
+        
+
+        marker_5c496c25e2b4db2f430766cd84e6570c.bindPopup(popup_e30f19c186f313a1b92879a4faa75745)
+        ;
+
+        
+    
+    
+            var marker_c093137b7e9b7200a9514efb49dde178 = L.marker(
+                [33.975, -118.331],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_3938ebf102d85e165aa9283bb1879989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c093137b7e9b7200a9514efb49dde178.setIcon(icon_3938ebf102d85e165aa9283bb1879989);
+        
+    
+        var popup_9a173d57caf7af35c596c65e89a7082c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87790a66760b2280004f7d612d3a4803 = $(`<div id="html_87790a66760b2280004f7d612d3a4803" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_9a173d57caf7af35c596c65e89a7082c.setContent(html_87790a66760b2280004f7d612d3a4803);
+            
+        
+
+        marker_c093137b7e9b7200a9514efb49dde178.bindPopup(popup_9a173d57caf7af35c596c65e89a7082c)
+        ;
+
+        
+    
+    
+            var marker_ce45c217daf47ecaf4ad447f983a127f = L.marker(
+                [34.036, -118.322],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_7e0b22d32c64a98f95a76e62cfdabd75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce45c217daf47ecaf4ad447f983a127f.setIcon(icon_7e0b22d32c64a98f95a76e62cfdabd75);
+        
+    
+        var popup_1cc34090324b6d799ceb14c08b7fe4dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d51e94c57b8f9c17f3a8d218fdc5aaf3 = $(`<div id="html_d51e94c57b8f9c17f3a8d218fdc5aaf3" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_1cc34090324b6d799ceb14c08b7fe4dc.setContent(html_d51e94c57b8f9c17f3a8d218fdc5aaf3);
+            
+        
+
+        marker_ce45c217daf47ecaf4ad447f983a127f.bindPopup(popup_1cc34090324b6d799ceb14c08b7fe4dc)
+        ;
+
+        
+    
+    
+            var marker_ea6a52466a980557d0ace9e31f1cbc45 = L.marker(
+                [33.938, -118.309],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c8abb4cdafab8178dd3f710935877eae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea6a52466a980557d0ace9e31f1cbc45.setIcon(icon_c8abb4cdafab8178dd3f710935877eae);
+        
+    
+        var popup_c62b8bfb891fbe964508b86f9d5c1485 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99b97e19ec43ebd8a91eb820c893c3d = $(`<div id="html_e99b97e19ec43ebd8a91eb820c893c3d" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_c62b8bfb891fbe964508b86f9d5c1485.setContent(html_e99b97e19ec43ebd8a91eb820c893c3d);
+            
+        
+
+        marker_ea6a52466a980557d0ace9e31f1cbc45.bindPopup(popup_c62b8bfb891fbe964508b86f9d5c1485)
+        ;
+
+        
+    
+    
+            var marker_f8387b775feeeab7fd9791117a54b234 = L.marker(
+                [33.939, -118.307],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_04319739486497aac3d2e9f1abfa5498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8387b775feeeab7fd9791117a54b234.setIcon(icon_04319739486497aac3d2e9f1abfa5498);
+        
+    
+        var popup_31786f479bdfb4719409f7edd4849bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_248bba7b269a350518e53bf7b957512d = $(`<div id="html_248bba7b269a350518e53bf7b957512d" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_31786f479bdfb4719409f7edd4849bf2.setContent(html_248bba7b269a350518e53bf7b957512d);
+            
+        
+
+        marker_f8387b775feeeab7fd9791117a54b234.bindPopup(popup_31786f479bdfb4719409f7edd4849bf2)
+        ;
+
+        
+    
+    
+            var marker_81b060c08eb7d85ae67108a64cab31d0 = L.marker(
+                [34.275, -118.305],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_ba018841bddfb6d251d758ac70c99b6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_81b060c08eb7d85ae67108a64cab31d0.setIcon(icon_ba018841bddfb6d251d758ac70c99b6a);
+        
+    
+        var popup_e667e7ab2810c5f133f215f9693a5c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9ee32bc870e2ec85be4abb7dae4efbd = $(`<div id="html_e9ee32bc870e2ec85be4abb7dae4efbd" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_e667e7ab2810c5f133f215f9693a5c0e.setContent(html_e9ee32bc870e2ec85be4abb7dae4efbd);
+            
+        
+
+        marker_81b060c08eb7d85ae67108a64cab31d0.bindPopup(popup_e667e7ab2810c5f133f215f9693a5c0e)
+        ;
+
+        
+    
+    
+            var marker_a08b42b08890cbc05c23e1567df34dec = L.marker(
+                [33.939, -118.296],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b7f7cc9c521f5beef6b91202c8d8e923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a08b42b08890cbc05c23e1567df34dec.setIcon(icon_b7f7cc9c521f5beef6b91202c8d8e923);
+        
+    
+        var popup_e493c4ec5b7011b36483bb9d42396bcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2ab2bd75b4ca942f6d167dc87fbda47 = $(`<div id="html_e2ab2bd75b4ca942f6d167dc87fbda47" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_e493c4ec5b7011b36483bb9d42396bcc.setContent(html_e2ab2bd75b4ca942f6d167dc87fbda47);
+            
+        
+
+        marker_a08b42b08890cbc05c23e1567df34dec.bindPopup(popup_e493c4ec5b7011b36483bb9d42396bcc)
+        ;
+
+        
+    
+    
+            var marker_b3b9abe70699582e2453d5a640fc8efe = L.marker(
+                [34.06, -118.294],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_07dba929980e998f2cec0cbc55f2802e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3b9abe70699582e2453d5a640fc8efe.setIcon(icon_07dba929980e998f2cec0cbc55f2802e);
+        
+    
+        var popup_3f28c76fe7ca8754877dd3f67dcf04b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998e9fedb307eb8e7eec7e442512b202 = $(`<div id="html_998e9fedb307eb8e7eec7e442512b202" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_3f28c76fe7ca8754877dd3f67dcf04b3.setContent(html_998e9fedb307eb8e7eec7e442512b202);
+            
+        
+
+        marker_b3b9abe70699582e2453d5a640fc8efe.bindPopup(popup_3f28c76fe7ca8754877dd3f67dcf04b3)
+        ;
+
+        
+    
+    
+            var marker_d5b556bd3e219f5588a13b521ff12e97 = L.marker(
+                [34.063, -118.294],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_5b157fc0b006c7423d9e3545ac602ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5b556bd3e219f5588a13b521ff12e97.setIcon(icon_5b157fc0b006c7423d9e3545ac602ca8);
+        
+    
+        var popup_b715daf179f0d57b83b5ee712cd11697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb9fb15a93a43f804e556693c67c4d35 = $(`<div id="html_fb9fb15a93a43f804e556693c67c4d35" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_b715daf179f0d57b83b5ee712cd11697.setContent(html_fb9fb15a93a43f804e556693c67c4d35);
+            
+        
+
+        marker_d5b556bd3e219f5588a13b521ff12e97.bindPopup(popup_b715daf179f0d57b83b5ee712cd11697)
+        ;
+
+        
+    
+    
+            var marker_419ba5afc744e2bfef6c272c052440ca = L.marker(
+                [33.975, -118.274],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_3402fc4fafc11a055c8abec881bb5291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_419ba5afc744e2bfef6c272c052440ca.setIcon(icon_3402fc4fafc11a055c8abec881bb5291);
+        
+    
+        var popup_fd3104f728432997d31e8bb376c8e29d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d06030880d178bd316a1961ac68ec737 = $(`<div id="html_d06030880d178bd316a1961ac68ec737" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_fd3104f728432997d31e8bb376c8e29d.setContent(html_d06030880d178bd316a1961ac68ec737);
+            
+        
+
+        marker_419ba5afc744e2bfef6c272c052440ca.bindPopup(popup_fd3104f728432997d31e8bb376c8e29d)
+        ;
+
+        
+    
+    
+            var marker_5fe081494ad5896f6f0749f6527ff2ef = L.marker(
+                [34.075, -118.274],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0e397010008d7020e3cbb2925b9d8ec9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5fe081494ad5896f6f0749f6527ff2ef.setIcon(icon_0e397010008d7020e3cbb2925b9d8ec9);
+        
+    
+        var popup_7ffd95932ac5542a8c764117eab93bac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93f0f277f7c2c8a871661e09d1a6800 = $(`<div id="html_a93f0f277f7c2c8a871661e09d1a6800" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_7ffd95932ac5542a8c764117eab93bac.setContent(html_a93f0f277f7c2c8a871661e09d1a6800);
+            
+        
+
+        marker_5fe081494ad5896f6f0749f6527ff2ef.bindPopup(popup_7ffd95932ac5542a8c764117eab93bac)
+        ;
+
+        
+    
+    
+            var marker_b4fe007f7827a83b7cc142e49ddf7d53 = L.marker(
+                [33.913, -118.27],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_79a60e39e880e702c05beaba4d32d653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4fe007f7827a83b7cc142e49ddf7d53.setIcon(icon_79a60e39e880e702c05beaba4d32d653);
+        
+    
+        var popup_90adc52076e34fb97d1d69a019b4a60f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb9de914a1a751cc40d7080d75810649 = $(`<div id="html_cb9de914a1a751cc40d7080d75810649" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_90adc52076e34fb97d1d69a019b4a60f.setContent(html_cb9de914a1a751cc40d7080d75810649);
+            
+        
+
+        marker_b4fe007f7827a83b7cc142e49ddf7d53.bindPopup(popup_90adc52076e34fb97d1d69a019b4a60f)
+        ;
+
+        
+    
+    
+            var marker_cb69dd71956067e8393389ec1a217fb5 = L.marker(
+                [34.042, -118.263],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_54b1a6fbf4f27c57424cd86f75d4951f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb69dd71956067e8393389ec1a217fb5.setIcon(icon_54b1a6fbf4f27c57424cd86f75d4951f);
+        
+    
+        var popup_2ed0826e945348077fe373679661ae52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c40b77e4a4dce849bf000cb7e275e590 = $(`<div id="html_c40b77e4a4dce849bf000cb7e275e590" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_2ed0826e945348077fe373679661ae52.setContent(html_c40b77e4a4dce849bf000cb7e275e590);
+            
+        
+
+        marker_cb69dd71956067e8393389ec1a217fb5.bindPopup(popup_2ed0826e945348077fe373679661ae52)
+        ;
+
+        
+    
+    
+            var marker_05726693126d3709851eafb45b7fdc08 = L.marker(
+                [34.121, -118.263],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_5b76c1a79cb1f1dc8fe8f548e35cad2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05726693126d3709851eafb45b7fdc08.setIcon(icon_5b76c1a79cb1f1dc8fe8f548e35cad2e);
+        
+    
+        var popup_0101e0f5ac092f0325558253ebd43247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3df58ae84050b2b70e9267ce5ed8077 = $(`<div id="html_c3df58ae84050b2b70e9267ce5ed8077" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_0101e0f5ac092f0325558253ebd43247.setContent(html_c3df58ae84050b2b70e9267ce5ed8077);
+            
+        
+
+        marker_05726693126d3709851eafb45b7fdc08.bindPopup(popup_0101e0f5ac092f0325558253ebd43247)
+        ;
+
+        
+    
+    
+            var marker_6e817aebf9c493bd29d5daf6aa400935 = L.marker(
+                [34.009, -118.257],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b83c6b374232c21611f04072ba6d287c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e817aebf9c493bd29d5daf6aa400935.setIcon(icon_b83c6b374232c21611f04072ba6d287c);
+        
+    
+        var popup_b70dfc58ab5d93451e6fb287f7f45714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d392f24337a28a60feac670c0650acd0 = $(`<div id="html_d392f24337a28a60feac670c0650acd0" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_b70dfc58ab5d93451e6fb287f7f45714.setContent(html_d392f24337a28a60feac670c0650acd0);
+            
+        
+
+        marker_6e817aebf9c493bd29d5daf6aa400935.bindPopup(popup_b70dfc58ab5d93451e6fb287f7f45714)
+        ;
+
+        
+    
+    
+            var marker_aae3166041291d59bf5adcacac80838f = L.marker(
+                [34.041, -118.257],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_97025c820e48be48b1ca65ee91f57b4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aae3166041291d59bf5adcacac80838f.setIcon(icon_97025c820e48be48b1ca65ee91f57b4e);
+        
+    
+        var popup_c78cc4c75446b5f0d56241d0ecd3931c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485230fe2b675fb7a37fb7498b3d1bb2 = $(`<div id="html_485230fe2b675fb7a37fb7498b3d1bb2" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_c78cc4c75446b5f0d56241d0ecd3931c.setContent(html_485230fe2b675fb7a37fb7498b3d1bb2);
+            
+        
+
+        marker_aae3166041291d59bf5adcacac80838f.bindPopup(popup_c78cc4c75446b5f0d56241d0ecd3931c)
+        ;
+
+        
+    
+    
+            var marker_24484c6ace96ddb507ab8fdef332e24c = L.marker(
+                [34.0, -118.25],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4b607c063b9b130696988780c6796311 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24484c6ace96ddb507ab8fdef332e24c.setIcon(icon_4b607c063b9b130696988780c6796311);
+        
+    
+        var popup_74e190953723dffaad435435e2dada1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e48c8c393f8fd3170d16f26d932e9cf = $(`<div id="html_7e48c8c393f8fd3170d16f26d932e9cf" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_74e190953723dffaad435435e2dada1d.setContent(html_7e48c8c393f8fd3170d16f26d932e9cf);
+            
+        
+
+        marker_24484c6ace96ddb507ab8fdef332e24c.bindPopup(popup_74e190953723dffaad435435e2dada1d)
+        ;
+
+        
+    
+    
+            var marker_a49eb54fb87c70c8ed6eeeda9ca8b736 = L.marker(
+                [34.047, -118.249],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_214fe9d3b2a4653b8a0c41637c2d07fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a49eb54fb87c70c8ed6eeeda9ca8b736.setIcon(icon_214fe9d3b2a4653b8a0c41637c2d07fb);
+        
+    
+        var popup_656e096250040f7dc20923eb27b68bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a951c4640abd6ecc729a69c235d68fc = $(`<div id="html_6a951c4640abd6ecc729a69c235d68fc" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_656e096250040f7dc20923eb27b68bd3.setContent(html_6a951c4640abd6ecc729a69c235d68fc);
+            
+        
+
+        marker_a49eb54fb87c70c8ed6eeeda9ca8b736.bindPopup(popup_656e096250040f7dc20923eb27b68bd3)
+        ;
+
+        
+    
+    
+            var marker_e2933adeb762445a8ffa1a3db8738277 = L.marker(
+                [33.954, -118.247],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2c0862cdd4f56949b22d63c0902b34c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2933adeb762445a8ffa1a3db8738277.setIcon(icon_2c0862cdd4f56949b22d63c0902b34c9);
+        
+    
+        var popup_a8d4f5894ed47a0238b8f0611af4f2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f3745399b066863e15f5aef5af16708 = $(`<div id="html_9f3745399b066863e15f5aef5af16708" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_a8d4f5894ed47a0238b8f0611af4f2ed.setContent(html_9f3745399b066863e15f5aef5af16708);
+            
+        
+
+        marker_e2933adeb762445a8ffa1a3db8738277.bindPopup(popup_a8d4f5894ed47a0238b8f0611af4f2ed)
+        ;
+
+        
+    
+    
+            var marker_2e53feb6bac328bd8a87bf9b63fc0f1a = L.marker(
+                [34.05, -118.247],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_7af047b2fd7f723ae99c48ba7033e38f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e53feb6bac328bd8a87bf9b63fc0f1a.setIcon(icon_7af047b2fd7f723ae99c48ba7033e38f);
+        
+    
+        var popup_08f14492e5bd4a8d0c32977099e4413b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed50b6536d460aae6a31b9ea9d1dc236 = $(`<div id="html_ed50b6536d460aae6a31b9ea9d1dc236" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_08f14492e5bd4a8d0c32977099e4413b.setContent(html_ed50b6536d460aae6a31b9ea9d1dc236);
+            
+        
+
+        marker_2e53feb6bac328bd8a87bf9b63fc0f1a.bindPopup(popup_08f14492e5bd4a8d0c32977099e4413b)
+        ;
+
+        
+    
+    
+            var marker_a5133f3f70f93afdb5025dcd79d6ba2c = L.marker(
+                [34.043, -118.245],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_6e34f24e6f4d626ae7fe84de932fca90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5133f3f70f93afdb5025dcd79d6ba2c.setIcon(icon_6e34f24e6f4d626ae7fe84de932fca90);
+        
+    
+        var popup_b69d4159d916857ea0b961b1dc977321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b919abd42ae150cc9a46eae588750a = $(`<div id="html_d6b919abd42ae150cc9a46eae588750a" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_b69d4159d916857ea0b961b1dc977321.setContent(html_d6b919abd42ae150cc9a46eae588750a);
+            
+        
+
+        marker_a5133f3f70f93afdb5025dcd79d6ba2c.bindPopup(popup_b69d4159d916857ea0b961b1dc977321)
+        ;
+
+        
+    
+    
+            var marker_16e189e44f950c6a417cf9378395a427 = L.marker(
+                [34.049, -118.226],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_fdfd4f3883488c2ebc2cd6027a383ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16e189e44f950c6a417cf9378395a427.setIcon(icon_fdfd4f3883488c2ebc2cd6027a383ea2);
+        
+    
+        var popup_4e574e3c06967a21953d8d92b7e51816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1fceb0f29ea4ae1f9e8c76216729a8c = $(`<div id="html_c1fceb0f29ea4ae1f9e8c76216729a8c" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_4e574e3c06967a21953d8d92b7e51816.setContent(html_c1fceb0f29ea4ae1f9e8c76216729a8c);
+            
+        
+
+        marker_16e189e44f950c6a417cf9378395a427.bindPopup(popup_4e574e3c06967a21953d8d92b7e51816)
+        ;
+
+        
+    
+    
+            var marker_a8254a80bd1f6d603e789d95b1101f1d = L.marker(
+                [33.939, -118.22],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_7dfa095b1f0a11eeb3443bb6e31dc2cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8254a80bd1f6d603e789d95b1101f1d.setIcon(icon_7dfa095b1f0a11eeb3443bb6e31dc2cd);
+        
+    
+        var popup_8c562305beb9a773840c8df9c1066e52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e959517e1f33347a982a852e424dcd8d = $(`<div id="html_e959517e1f33347a982a852e424dcd8d" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_8c562305beb9a773840c8df9c1066e52.setContent(html_e959517e1f33347a982a852e424dcd8d);
+            
+        
+
+        marker_a8254a80bd1f6d603e789d95b1101f1d.bindPopup(popup_8c562305beb9a773840c8df9c1066e52)
+        ;
+
+        
+    
+    
+            var marker_779794690226d720653a73a1452c56c3 = L.marker(
+                [34.038, -118.215],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_705bcd198bcf6672b2836d96b67513e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_779794690226d720653a73a1452c56c3.setIcon(icon_705bcd198bcf6672b2836d96b67513e7);
+        
+    
+        var popup_9c72f47008e86890124b31da6919b7c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_944db524b84b588960b1c2b67bbfa51b = $(`<div id="html_944db524b84b588960b1c2b67bbfa51b" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_9c72f47008e86890124b31da6919b7c5.setContent(html_944db524b84b588960b1c2b67bbfa51b);
+            
+        
+
+        marker_779794690226d720653a73a1452c56c3.bindPopup(popup_9c72f47008e86890124b31da6919b7c5)
+        ;
+
+        
+    
+    
+            var marker_689328bad0727e547778944b9cc5e66a = L.marker(
+                [34.041, -118.212],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1eb5c30902d9c4f6333b37e3ca0781d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_689328bad0727e547778944b9cc5e66a.setIcon(icon_1eb5c30902d9c4f6333b37e3ca0781d4);
+        
+    
+        var popup_edc8537dbd6a650e3c8965beb0fe600c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6f34c4fa9057c74b37a488abfff07c = $(`<div id="html_3d6f34c4fa9057c74b37a488abfff07c" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_edc8537dbd6a650e3c8965beb0fe600c.setContent(html_3d6f34c4fa9057c74b37a488abfff07c);
+            
+        
+
+        marker_689328bad0727e547778944b9cc5e66a.bindPopup(popup_edc8537dbd6a650e3c8965beb0fe600c)
+        ;
+
+        
+    
+    
+            var marker_f37eb0b8d0e3b603e4337dafba9ff76a = L.marker(
+                [33.892, -118.203],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_21849c145b1f062552e5e45685aee8d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f37eb0b8d0e3b603e4337dafba9ff76a.setIcon(icon_21849c145b1f062552e5e45685aee8d1);
+        
+    
+        var popup_13c70ad3c13acab8dde439feb8edbd85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b35b2d89a58eaea3eecdb53e3e8a80ff = $(`<div id="html_b35b2d89a58eaea3eecdb53e3e8a80ff" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_13c70ad3c13acab8dde439feb8edbd85.setContent(html_b35b2d89a58eaea3eecdb53e3e8a80ff);
+            
+        
+
+        marker_f37eb0b8d0e3b603e4337dafba9ff76a.bindPopup(popup_13c70ad3c13acab8dde439feb8edbd85)
+        ;
+
+        
+    
+    
+            var marker_be4224824f75e42ef1f616364b848411 = L.marker(
+                [33.932, -118.2],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_39f1d93228f069022af809cb6b5f9016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be4224824f75e42ef1f616364b848411.setIcon(icon_39f1d93228f069022af809cb6b5f9016);
+        
+    
+        var popup_6cef7782981e61b3920488976630536b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_975888b2bd4a74c896496df405e8114e = $(`<div id="html_975888b2bd4a74c896496df405e8114e" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_6cef7782981e61b3920488976630536b.setContent(html_975888b2bd4a74c896496df405e8114e);
+            
+        
+
+        marker_be4224824f75e42ef1f616364b848411.bindPopup(popup_6cef7782981e61b3920488976630536b)
+        ;
+
+        
+    
+    
+            var marker_5714880d7fabce2b34ae89441ab6e1f0 = L.marker(
+                [34.044, -118.162],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_48c748db178feeda55eaee117e8db0d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5714880d7fabce2b34ae89441ab6e1f0.setIcon(icon_48c748db178feeda55eaee117e8db0d5);
+        
+    
+        var popup_79ed3c9f8d197f765e5febb67b6eb18f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2be985eb47c61a0a765ca0b3d7b40599 = $(`<div id="html_2be985eb47c61a0a765ca0b3d7b40599" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_79ed3c9f8d197f765e5febb67b6eb18f.setContent(html_2be985eb47c61a0a765ca0b3d7b40599);
+            
+        
+
+        marker_5714880d7fabce2b34ae89441ab6e1f0.bindPopup(popup_79ed3c9f8d197f765e5febb67b6eb18f)
+        ;
+
+        
+    
+    
+            var marker_5a6c4124d2844f49394c70f35be291d1 = L.marker(
+                [34.033, -118.159],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_3e8d95abd6c90d2885224006a1fd3eab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a6c4124d2844f49394c70f35be291d1.setIcon(icon_3e8d95abd6c90d2885224006a1fd3eab);
+        
+    
+        var popup_1cd8c2c0ffb7602857399f8724ed23d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ea5ce912c80a46236f14ec04d098f8 = $(`<div id="html_91ea5ce912c80a46236f14ec04d098f8" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_1cd8c2c0ffb7602857399f8724ed23d9.setContent(html_91ea5ce912c80a46236f14ec04d098f8);
+            
+        
+
+        marker_5a6c4124d2844f49394c70f35be291d1.bindPopup(popup_1cd8c2c0ffb7602857399f8724ed23d9)
+        ;
+
+        
+    
+    
+            var marker_bfbbef2fc6548710d0f26070aa02e000 = L.marker(
+                [34.712, -118.148],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0f415c20abf7a7eb853d30c3a4a129bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bfbbef2fc6548710d0f26070aa02e000.setIcon(icon_0f415c20abf7a7eb853d30c3a4a129bd);
+        
+    
+        var popup_749dd47061dd6c4fdf616e79410e4af6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_708e16994447647dc016a56e8b9b90de = $(`<div id="html_708e16994447647dc016a56e8b9b90de" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_749dd47061dd6c4fdf616e79410e4af6.setContent(html_708e16994447647dc016a56e8b9b90de);
+            
+        
+
+        marker_bfbbef2fc6548710d0f26070aa02e000.bindPopup(popup_749dd47061dd6c4fdf616e79410e4af6)
+        ;
+
+        
+    
+    
+            var marker_12c34529e0aa026ccda67281b39ae8c0 = L.marker(
+                [33.969, -118.073],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1b8a74ae88a62ead36460e7eb87bea67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12c34529e0aa026ccda67281b39ae8c0.setIcon(icon_1b8a74ae88a62ead36460e7eb87bea67);
+        
+    
+        var popup_f761a20d05c06f7098e076e6cb015133 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bb30cee0309f8e9971b1ef5d88b189c = $(`<div id="html_2bb30cee0309f8e9971b1ef5d88b189c" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_f761a20d05c06f7098e076e6cb015133.setContent(html_2bb30cee0309f8e9971b1ef5d88b189c);
+            
+        
+
+        marker_12c34529e0aa026ccda67281b39ae8c0.bindPopup(popup_f761a20d05c06f7098e076e6cb015133)
+        ;
+
+        
+    
+    
+            var marker_4c37e9f9fdc7e48efa2e61db3dd4378a = L.marker(
+                [34.065, -118.056],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1f31b2542bbfb17815630d2a7d079f0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c37e9f9fdc7e48efa2e61db3dd4378a.setIcon(icon_1f31b2542bbfb17815630d2a7d079f0d);
+        
+    
+        var popup_9108d0787f4042e8818bc23e40efcd8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c47061e3a8cce7f5a500cc8bc159c496 = $(`<div id="html_c47061e3a8cce7f5a500cc8bc159c496" style="width: 100.0%; height: 100.0%;">Los Angeles, CA</div>`)[0];
+                popup_9108d0787f4042e8818bc23e40efcd8a.setContent(html_c47061e3a8cce7f5a500cc8bc159c496);
+            
+        
+
+        marker_4c37e9f9fdc7e48efa2e61db3dd4378a.bindPopup(popup_9108d0787f4042e8818bc23e40efcd8a)
+        ;
+
+        
+    
+    
+            var marker_a9ad30badff447ea0640025584f45ea9 = L.marker(
+                [33.36526923076923, -111.47357692307692],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var div_icon_7256f1ed34bbea27784689aaacd282a8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size: 12px\"\u003e\u003cb\u003ePhoenix, AZ\u003c/b\u003e\u003cbr\u003e32 incidents (B: 7, H: 7, W: 7)\u003c/div\u003e"});
+            marker_a9ad30badff447ea0640025584f45ea9.setIcon(div_icon_7256f1ed34bbea27784689aaacd282a8);
+        
+    
+            var marker_92e668cc7ca5527d7627c3f1b4c69968 = L.marker(
+                [33.509, -112.255],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_48df8473a8b4f182302ed567de969720 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92e668cc7ca5527d7627c3f1b4c69968.setIcon(icon_48df8473a8b4f182302ed567de969720);
+        
+    
+        var popup_56df14b947cee618737c531a3b5fd300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40560441b25ebc965ddc12a9ce2c0f9 = $(`<div id="html_e40560441b25ebc965ddc12a9ce2c0f9" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_56df14b947cee618737c531a3b5fd300.setContent(html_e40560441b25ebc965ddc12a9ce2c0f9);
+            
+        
+
+        marker_92e668cc7ca5527d7627c3f1b4c69968.bindPopup(popup_56df14b947cee618737c531a3b5fd300)
+        ;
+
+        
+    
+    
+            var marker_85cdc421371e3590ab6cc75ba529b794 = L.marker(
+                [33.466, -112.221],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_e5d333e453a464bf643ea539ba1066a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85cdc421371e3590ab6cc75ba529b794.setIcon(icon_e5d333e453a464bf643ea539ba1066a2);
+        
+    
+        var popup_8ef220c07e58324b64473795b05e743d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_892f66a9b62e1a177cdb436f67e82c8b = $(`<div id="html_892f66a9b62e1a177cdb436f67e82c8b" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_8ef220c07e58324b64473795b05e743d.setContent(html_892f66a9b62e1a177cdb436f67e82c8b);
+            
+        
+
+        marker_85cdc421371e3590ab6cc75ba529b794.bindPopup(popup_8ef220c07e58324b64473795b05e743d)
+        ;
+
+        
+    
+    
+            var marker_73ad53cf1b1ebdd96bf7d7813490891f = L.marker(
+                [33.495, -112.221],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_356713e52ffc58cfb987673a0ccc5cfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73ad53cf1b1ebdd96bf7d7813490891f.setIcon(icon_356713e52ffc58cfb987673a0ccc5cfc);
+        
+    
+        var popup_a502f104f75bc6abfb66786b8a96dbca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df1aeaca9d5df32004142ae7abd3c94 = $(`<div id="html_0df1aeaca9d5df32004142ae7abd3c94" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_a502f104f75bc6abfb66786b8a96dbca.setContent(html_0df1aeaca9d5df32004142ae7abd3c94);
+            
+        
+
+        marker_73ad53cf1b1ebdd96bf7d7813490891f.bindPopup(popup_a502f104f75bc6abfb66786b8a96dbca)
+        ;
+
+        
+    
+    
+            var marker_99490a852a7724e4fcaab637ee9fd2cc = L.marker(
+                [33.495, -112.208],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c473bd12cceeee290ac001fcbdbbc54e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99490a852a7724e4fcaab637ee9fd2cc.setIcon(icon_c473bd12cceeee290ac001fcbdbbc54e);
+        
+    
+        var popup_5e78feb1fdf3882a52d8e266e49b1080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b063b2ae6ed8fdab8fb4f35180ebe7c = $(`<div id="html_5b063b2ae6ed8fdab8fb4f35180ebe7c" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_5e78feb1fdf3882a52d8e266e49b1080.setContent(html_5b063b2ae6ed8fdab8fb4f35180ebe7c);
+            
+        
+
+        marker_99490a852a7724e4fcaab637ee9fd2cc.bindPopup(popup_5e78feb1fdf3882a52d8e266e49b1080)
+        ;
+
+        
+    
+    
+            var marker_0fdbbb79ed5fe8529d54a652dda01a05 = L.marker(
+                [33.487, -112.164],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0df51ef14c564691d58f77a2129122da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0fdbbb79ed5fe8529d54a652dda01a05.setIcon(icon_0df51ef14c564691d58f77a2129122da);
+        
+    
+        var popup_e64ed16adaca17469d5ace7ac3c10a7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95ff95802d307e3a14db7deea60bcf23 = $(`<div id="html_95ff95802d307e3a14db7deea60bcf23" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_e64ed16adaca17469d5ace7ac3c10a7a.setContent(html_95ff95802d307e3a14db7deea60bcf23);
+            
+        
+
+        marker_0fdbbb79ed5fe8529d54a652dda01a05.bindPopup(popup_e64ed16adaca17469d5ace7ac3c10a7a)
+        ;
+
+        
+    
+    
+            var marker_1cdc42cfd4e7603c204a184e271d8867 = L.marker(
+                [33.484, -112.162],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c81428d188a5501403ff2bee99fcd9a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cdc42cfd4e7603c204a184e271d8867.setIcon(icon_c81428d188a5501403ff2bee99fcd9a5);
+        
+    
+        var popup_2d5cf6e889e20efd0f4864f03ed2b426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37075edad46fb990df797229809001e = $(`<div id="html_b37075edad46fb990df797229809001e" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_2d5cf6e889e20efd0f4864f03ed2b426.setContent(html_b37075edad46fb990df797229809001e);
+            
+        
+
+        marker_1cdc42cfd4e7603c204a184e271d8867.bindPopup(popup_2d5cf6e889e20efd0f4864f03ed2b426)
+        ;
+
+        
+    
+    
+            var marker_ba04d55ecdbeed4a28b7059e7cc144ca = L.marker(
+                [33.655, -112.152],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_e6a17ece1478ca3b4a4d6ff38cc29f27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba04d55ecdbeed4a28b7059e7cc144ca.setIcon(icon_e6a17ece1478ca3b4a4d6ff38cc29f27);
+        
+    
+        var popup_03d233c53d236a5b809dbaf7daa87ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fc6ae251cd451929fb81442dae7bd7e = $(`<div id="html_1fc6ae251cd451929fb81442dae7bd7e" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_03d233c53d236a5b809dbaf7daa87ca6.setContent(html_1fc6ae251cd451929fb81442dae7bd7e);
+            
+        
+
+        marker_ba04d55ecdbeed4a28b7059e7cc144ca.bindPopup(popup_03d233c53d236a5b809dbaf7daa87ca6)
+        ;
+
+        
+    
+    
+            var marker_64e60d6d9e8a194af31f3f5fec4b088a = L.marker(
+                [33.596, -112.151],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_eacafb1c44a79af43e143fbec786ebcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_64e60d6d9e8a194af31f3f5fec4b088a.setIcon(icon_eacafb1c44a79af43e143fbec786ebcc);
+        
+    
+        var popup_86602dea0165260139ae5db12dccae1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_240adcbedf5fd943dff6552cb087bfa6 = $(`<div id="html_240adcbedf5fd943dff6552cb087bfa6" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_86602dea0165260139ae5db12dccae1f.setContent(html_240adcbedf5fd943dff6552cb087bfa6);
+            
+        
+
+        marker_64e60d6d9e8a194af31f3f5fec4b088a.bindPopup(popup_86602dea0165260139ae5db12dccae1f)
+        ;
+
+        
+    
+    
+            var marker_11a1bc37271987a64f7d2c07deca99f0 = L.marker(
+                [33.611, -112.151],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_6d67f34a943dca02a953295959fb7ab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11a1bc37271987a64f7d2c07deca99f0.setIcon(icon_6d67f34a943dca02a953295959fb7ab9);
+        
+    
+        var popup_97b127801eec0309726488f2203e4c80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6736a4335f9940dc273d65a7e717770b = $(`<div id="html_6736a4335f9940dc273d65a7e717770b" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_97b127801eec0309726488f2203e4c80.setContent(html_6736a4335f9940dc273d65a7e717770b);
+            
+        
+
+        marker_11a1bc37271987a64f7d2c07deca99f0.bindPopup(popup_97b127801eec0309726488f2203e4c80)
+        ;
+
+        
+    
+    
+            var marker_b1fc5d5daa427e77961ed2038ba5cf93 = L.marker(
+                [33.655, -112.144],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b48fd53d2cbedb1ea3d0a9331c23155a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1fc5d5daa427e77961ed2038ba5cf93.setIcon(icon_b48fd53d2cbedb1ea3d0a9331c23155a);
+        
+    
+        var popup_e640efe8ae2150b449a0661cf2811917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2bb0ca376330ef1a8bb794dc6e9d796 = $(`<div id="html_f2bb0ca376330ef1a8bb794dc6e9d796" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_e640efe8ae2150b449a0661cf2811917.setContent(html_f2bb0ca376330ef1a8bb794dc6e9d796);
+            
+        
+
+        marker_b1fc5d5daa427e77961ed2038ba5cf93.bindPopup(popup_e640efe8ae2150b449a0661cf2811917)
+        ;
+
+        
+    
+    
+            var marker_1a4ba1e0babac84b5a393dfb45cdfb15 = L.marker(
+                [33.466, -112.139],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_8be48039f36a3b72c38c3cb1b43b7e21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a4ba1e0babac84b5a393dfb45cdfb15.setIcon(icon_8be48039f36a3b72c38c3cb1b43b7e21);
+        
+    
+        var popup_ef47d841586514427bb1592b5b82a1ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb4ccf0a0a341acf0703e642dcb7931c = $(`<div id="html_bb4ccf0a0a341acf0703e642dcb7931c" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_ef47d841586514427bb1592b5b82a1ce.setContent(html_bb4ccf0a0a341acf0703e642dcb7931c);
+            
+        
+
+        marker_1a4ba1e0babac84b5a393dfb45cdfb15.bindPopup(popup_ef47d841586514427bb1592b5b82a1ce)
+        ;
+
+        
+    
+    
+            var marker_38d67f3f123ca2a53f8ba38acff1eeb8 = L.marker(
+                [33.568, -112.134],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_a7e822bbbb4fb2bd85de65fdd352531d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38d67f3f123ca2a53f8ba38acff1eeb8.setIcon(icon_a7e822bbbb4fb2bd85de65fdd352531d);
+        
+    
+        var popup_296b78c8cfdea7bfb620f60c77fc95f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_603a689525b9c4eb0936751e57e86395 = $(`<div id="html_603a689525b9c4eb0936751e57e86395" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_296b78c8cfdea7bfb620f60c77fc95f5.setContent(html_603a689525b9c4eb0936751e57e86395);
+            
+        
+
+        marker_38d67f3f123ca2a53f8ba38acff1eeb8.bindPopup(popup_296b78c8cfdea7bfb620f60c77fc95f5)
+        ;
+
+        
+    
+    
+            var marker_b07e4e9add7bcf7145d9a83004037e45 = L.marker(
+                [33.553, -112.117],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_408abb7877538fc84dc39508b4af2f07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b07e4e9add7bcf7145d9a83004037e45.setIcon(icon_408abb7877538fc84dc39508b4af2f07);
+        
+    
+        var popup_f878bed25a5f253d5f228d755f29aecc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca15702a1e9b0f8718406ee22142805d = $(`<div id="html_ca15702a1e9b0f8718406ee22142805d" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_f878bed25a5f253d5f228d755f29aecc.setContent(html_ca15702a1e9b0f8718406ee22142805d);
+            
+        
+
+        marker_b07e4e9add7bcf7145d9a83004037e45.bindPopup(popup_f878bed25a5f253d5f228d755f29aecc)
+        ;
+
+        
+    
+    
+            var marker_917236afec3d1883d2b05ddf570dcd9c = L.marker(
+                [33.597, -112.1],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_01c1532f46135e9faf763b5601da2e2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_917236afec3d1883d2b05ddf570dcd9c.setIcon(icon_01c1532f46135e9faf763b5601da2e2f);
+        
+    
+        var popup_6bcfacde4e2216a8a55642b71ca6113a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_543cbe316692d16581fc603d3bcdaecf = $(`<div id="html_543cbe316692d16581fc603d3bcdaecf" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_6bcfacde4e2216a8a55642b71ca6113a.setContent(html_543cbe316692d16581fc603d3bcdaecf);
+            
+        
+
+        marker_917236afec3d1883d2b05ddf570dcd9c.bindPopup(popup_6bcfacde4e2216a8a55642b71ca6113a)
+        ;
+
+        
+    
+    
+            var marker_c26afbf6f80f43c8a054958c49e4a9fb = L.marker(
+                [33.568, -112.099],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b436e507d8792491b0f18bf6015f04a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c26afbf6f80f43c8a054958c49e4a9fb.setIcon(icon_b436e507d8792491b0f18bf6015f04a6);
+        
+    
+        var popup_7c70ebbcc784076e2b7516d8d767e20d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0697a6621058f30a1c806f7af7d7cf41 = $(`<div id="html_0697a6621058f30a1c806f7af7d7cf41" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_7c70ebbcc784076e2b7516d8d767e20d.setContent(html_0697a6621058f30a1c806f7af7d7cf41);
+            
+        
+
+        marker_c26afbf6f80f43c8a054958c49e4a9fb.bindPopup(popup_7c70ebbcc784076e2b7516d8d767e20d)
+        ;
+
+        
+    
+    
+            var marker_3ea6b64d1b0a78c4c4fa385fa2df65c7 = L.marker(
+                [33.437, -112.083],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_86c077ebeea1da9bf7b81a69f477eca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ea6b64d1b0a78c4c4fa385fa2df65c7.setIcon(icon_86c077ebeea1da9bf7b81a69f477eca1);
+        
+    
+        var popup_71e1a26570348fac9785f2662fa3a966 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ab0506689b98105c7bde2a0c630413 = $(`<div id="html_c1ab0506689b98105c7bde2a0c630413" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_71e1a26570348fac9785f2662fa3a966.setContent(html_c1ab0506689b98105c7bde2a0c630413);
+            
+        
+
+        marker_3ea6b64d1b0a78c4c4fa385fa2df65c7.bindPopup(popup_71e1a26570348fac9785f2662fa3a966)
+        ;
+
+        
+    
+    
+            var marker_937b905eb5e17ca1f06de57a5394ba91 = L.marker(
+                [33.463, -112.078],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4d16016d15f7b854bb833db7c65a5317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_937b905eb5e17ca1f06de57a5394ba91.setIcon(icon_4d16016d15f7b854bb833db7c65a5317);
+        
+    
+        var popup_10e0e9c17bcb7285b82f30d6493af950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71e2b76bb455e1f67f508e3033ef4a54 = $(`<div id="html_71e2b76bb455e1f67f508e3033ef4a54" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_10e0e9c17bcb7285b82f30d6493af950.setContent(html_71e2b76bb455e1f67f508e3033ef4a54);
+            
+        
+
+        marker_937b905eb5e17ca1f06de57a5394ba91.bindPopup(popup_10e0e9c17bcb7285b82f30d6493af950)
+        ;
+
+        
+    
+    
+            var marker_b3fccffee49061ed5b9ed91d87b12ccf = L.marker(
+                [33.445, -112.075],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_9e2aed25ded5efae23d3be031975984e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3fccffee49061ed5b9ed91d87b12ccf.setIcon(icon_9e2aed25ded5efae23d3be031975984e);
+        
+    
+        var popup_1bf6e0fd8dad73f1d63cafedf82ddfda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c458a7c2ad531f28169603cdd78758 = $(`<div id="html_b4c458a7c2ad531f28169603cdd78758" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_1bf6e0fd8dad73f1d63cafedf82ddfda.setContent(html_b4c458a7c2ad531f28169603cdd78758);
+            
+        
+
+        marker_b3fccffee49061ed5b9ed91d87b12ccf.bindPopup(popup_1bf6e0fd8dad73f1d63cafedf82ddfda)
+        ;
+
+        
+    
+    
+            var marker_5aa55678b27663c63b685fc8085cd876 = L.marker(
+                [33.448, -112.074],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_89feff65aa6d92a89a3f51649f528668 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5aa55678b27663c63b685fc8085cd876.setIcon(icon_89feff65aa6d92a89a3f51649f528668);
+        
+    
+        var popup_93e7fff2985de2458e695b571ade2b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d46b9231f1263b4620b287092e0046b = $(`<div id="html_9d46b9231f1263b4620b287092e0046b" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_93e7fff2985de2458e695b571ade2b19.setContent(html_9d46b9231f1263b4620b287092e0046b);
+            
+        
+
+        marker_5aa55678b27663c63b685fc8085cd876.bindPopup(popup_93e7fff2985de2458e695b571ade2b19)
+        ;
+
+        
+    
+    
+            var marker_e68a5fcc10ea9c564344f717f39f4a9c = L.marker(
+                [33.488, -112.074],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_be775a9114ffae6f6a58a77e6fb98162 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e68a5fcc10ea9c564344f717f39f4a9c.setIcon(icon_be775a9114ffae6f6a58a77e6fb98162);
+        
+    
+        var popup_aad395229790323424a514c67aa9dfbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e38b0584620cc3df6f4c722470e07497 = $(`<div id="html_e38b0584620cc3df6f4c722470e07497" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_aad395229790323424a514c67aa9dfbb.setContent(html_e38b0584620cc3df6f4c722470e07497);
+            
+        
+
+        marker_e68a5fcc10ea9c564344f717f39f4a9c.bindPopup(popup_aad395229790323424a514c67aa9dfbb)
+        ;
+
+        
+    
+    
+            var marker_50d90d801b84e7446f217ce6a40846bf = L.marker(
+                [33.451, -112.069],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_d8e0513cf501ad4f34a7254da7b585d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50d90d801b84e7446f217ce6a40846bf.setIcon(icon_d8e0513cf501ad4f34a7254da7b585d5);
+        
+    
+        var popup_58569333744693dc1b456e33d54fdd95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cee3d66589d2ea05499fede60d2ecb7 = $(`<div id="html_4cee3d66589d2ea05499fede60d2ecb7" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_58569333744693dc1b456e33d54fdd95.setContent(html_4cee3d66589d2ea05499fede60d2ecb7);
+            
+        
+
+        marker_50d90d801b84e7446f217ce6a40846bf.bindPopup(popup_58569333744693dc1b456e33d54fdd95)
+        ;
+
+        
+    
+    
+            var marker_b48c8fb933bd63697afae87d3800f823 = L.marker(
+                [33.469, -112.043],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_f28f792f37380749f58c765b9accb835 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b48c8fb933bd63697afae87d3800f823.setIcon(icon_f28f792f37380749f58c765b9accb835);
+        
+    
+        var popup_93813db79014cbb1c492d60ea7b10d40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11710b8fd3d18634aef429657c3e32ca = $(`<div id="html_11710b8fd3d18634aef429657c3e32ca" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_93813db79014cbb1c492d60ea7b10d40.setContent(html_11710b8fd3d18634aef429657c3e32ca);
+            
+        
+
+        marker_b48c8fb933bd63697afae87d3800f823.bindPopup(popup_93813db79014cbb1c492d60ea7b10d40)
+        ;
+
+        
+    
+    
+            var marker_6253f9350ab368a8f81858c058c07c94 = L.marker(
+                [33.4, -112.021],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_43ff9486d57bcaf738d22da4ccd034c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6253f9350ab368a8f81858c058c07c94.setIcon(icon_43ff9486d57bcaf738d22da4ccd034c0);
+        
+    
+        var popup_4a478c76a2270fab819280cceb094d3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6457ccffa33f7ca3d9bb24cd31c2dfd1 = $(`<div id="html_6457ccffa33f7ca3d9bb24cd31c2dfd1" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_4a478c76a2270fab819280cceb094d3d.setContent(html_6457ccffa33f7ca3d9bb24cd31c2dfd1);
+            
+        
+
+        marker_6253f9350ab368a8f81858c058c07c94.bindPopup(popup_4a478c76a2270fab819280cceb094d3d)
+        ;
+
+        
+    
+    
+            var marker_8410b3c2d8d4946e8f90cc813bc3723f = L.marker(
+                [33.451, -112.013],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2a232dea0db189c82da8642aaa579a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8410b3c2d8d4946e8f90cc813bc3723f.setIcon(icon_2a232dea0db189c82da8642aaa579a30);
+        
+    
+        var popup_a1f82797fd2838532bb663a343045eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21ed913648774b1325f1ac54f2f1390f = $(`<div id="html_21ed913648774b1325f1ac54f2f1390f" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_a1f82797fd2838532bb663a343045eb3.setContent(html_21ed913648774b1325f1ac54f2f1390f);
+            
+        
+
+        marker_8410b3c2d8d4946e8f90cc813bc3723f.bindPopup(popup_a1f82797fd2838532bb663a343045eb3)
+        ;
+
+        
+    
+    
+            var marker_ae29e814441f3bfdb785d96cf6e8bb09 = L.marker(
+                [33.48, -111.995],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0ad0490fdf1a16b7a924d0be222dd559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae29e814441f3bfdb785d96cf6e8bb09.setIcon(icon_0ad0490fdf1a16b7a924d0be222dd559);
+        
+    
+        var popup_da4c4efc85c69cc4411933043de5b8e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d509b09f08a1fea20b2710087544e163 = $(`<div id="html_d509b09f08a1fea20b2710087544e163" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_da4c4efc85c69cc4411933043de5b8e7.setContent(html_d509b09f08a1fea20b2710087544e163);
+            
+        
+
+        marker_ae29e814441f3bfdb785d96cf6e8bb09.bindPopup(popup_da4c4efc85c69cc4411933043de5b8e7)
+        ;
+
+        
+    
+    
+            var marker_32077a73c21ffa6fa75280f57faeb0ab = L.marker(
+                [29.76, -95.37],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_d4290e7a7caa36d8869cd89dd51715f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32077a73c21ffa6fa75280f57faeb0ab.setIcon(icon_d4290e7a7caa36d8869cd89dd51715f3);
+        
+    
+        var popup_be491b505d8ad3974bb7546716375828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9024967d51884c5167b9e69ef87e9875 = $(`<div id="html_9024967d51884c5167b9e69ef87e9875" style="width: 100.0%; height: 100.0%;">Phoenix, AZ</div>`)[0];
+                popup_be491b505d8ad3974bb7546716375828.setContent(html_9024967d51884c5167b9e69ef87e9875);
+            
+        
+
+        marker_32077a73c21ffa6fa75280f57faeb0ab.bindPopup(popup_be491b505d8ad3974bb7546716375828)
+        ;
+
+        
+    
+    
+            var marker_c06109d5294e29e5eba1d137c0e57cd8 = L.marker(
+                [36.14279310344828, -115.1505172413793],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var div_icon_107f77448b7c787b0e5999987839c47a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size: 12px\"\u003e\u003cb\u003eLas Vegas, NV\u003c/b\u003e\u003cbr\u003e32 incidents (W: 9, H: 8, B: 3)\u003c/div\u003e"});
+            marker_c06109d5294e29e5eba1d137c0e57cd8.setIcon(div_icon_107f77448b7c787b0e5999987839c47a);
+        
+    
+            var marker_b7aa417f754e5e65a845bdcc6ae0c1a1 = L.marker(
+                [36.096, -115.286],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c0439cd0b05085b8e00744215ceec2e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7aa417f754e5e65a845bdcc6ae0c1a1.setIcon(icon_c0439cd0b05085b8e00744215ceec2e0);
+        
+    
+        var popup_45a0c88841e3858414cfdf27180c8d70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9d921e976f4429ad96288ead389e151 = $(`<div id="html_e9d921e976f4429ad96288ead389e151" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_45a0c88841e3858414cfdf27180c8d70.setContent(html_e9d921e976f4429ad96288ead389e151);
+            
+        
+
+        marker_b7aa417f754e5e65a845bdcc6ae0c1a1.bindPopup(popup_45a0c88841e3858414cfdf27180c8d70)
+        ;
+
+        
+    
+    
+            var marker_03a5cb595259f64205569530cbe232d4 = L.marker(
+                [36.205, -115.278],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_ef271b664003bce047a58e044c0d550a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03a5cb595259f64205569530cbe232d4.setIcon(icon_ef271b664003bce047a58e044c0d550a);
+        
+    
+        var popup_bf33037312ede38998b6e420302e3169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78e76e92a49cd5d5b1569ea5a9ba9772 = $(`<div id="html_78e76e92a49cd5d5b1569ea5a9ba9772" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_bf33037312ede38998b6e420302e3169.setContent(html_78e76e92a49cd5d5b1569ea5a9ba9772);
+            
+        
+
+        marker_03a5cb595259f64205569530cbe232d4.bindPopup(popup_bf33037312ede38998b6e420302e3169)
+        ;
+
+        
+    
+    
+            var marker_f1c7dcc8302720df3818d6a0bbcbedb9 = L.marker(
+                [36.115, -115.252],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_34694823517ebaad0e289424e2c28387 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1c7dcc8302720df3818d6a0bbcbedb9.setIcon(icon_34694823517ebaad0e289424e2c28387);
+        
+    
+        var popup_0c6049d0e9a1b4009fd4faf8a8d3a838 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e277e002c498d6739606ad070634affe = $(`<div id="html_e277e002c498d6739606ad070634affe" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_0c6049d0e9a1b4009fd4faf8a8d3a838.setContent(html_e277e002c498d6739606ad070634affe);
+            
+        
+
+        marker_f1c7dcc8302720df3818d6a0bbcbedb9.bindPopup(popup_0c6049d0e9a1b4009fd4faf8a8d3a838)
+        ;
+
+        
+    
+    
+            var marker_a76cfe11cc03299194773dab63dbfe3f = L.marker(
+                [36.106, -115.245],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_832e5baef4f35179ff30c7dd15e9cb8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a76cfe11cc03299194773dab63dbfe3f.setIcon(icon_832e5baef4f35179ff30c7dd15e9cb8c);
+        
+    
+        var popup_3d52a84da634e6e76c2b35ba71ff6e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2502ddef28c1d43c8c4d4f3d26fb99 = $(`<div id="html_fa2502ddef28c1d43c8c4d4f3d26fb99" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_3d52a84da634e6e76c2b35ba71ff6e88.setContent(html_fa2502ddef28c1d43c8c4d4f3d26fb99);
+            
+        
+
+        marker_a76cfe11cc03299194773dab63dbfe3f.bindPopup(popup_3d52a84da634e6e76c2b35ba71ff6e88)
+        ;
+
+        
+    
+    
+            var marker_1047ff56e49247e869941a79ba3dd09c = L.marker(
+                [36.015, -115.244],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_ed3da94f8db63fa3dd9b92211f6fef38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1047ff56e49247e869941a79ba3dd09c.setIcon(icon_ed3da94f8db63fa3dd9b92211f6fef38);
+        
+    
+        var popup_32d9154d9a3da7d62821db2aa016281c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78e7e86aff05bdbf2147d7e0e5823ad8 = $(`<div id="html_78e7e86aff05bdbf2147d7e0e5823ad8" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_32d9154d9a3da7d62821db2aa016281c.setContent(html_78e7e86aff05bdbf2147d7e0e5823ad8);
+            
+        
+
+        marker_1047ff56e49247e869941a79ba3dd09c.bindPopup(popup_32d9154d9a3da7d62821db2aa016281c)
+        ;
+
+        
+    
+    
+            var marker_32697758cde5eac99e834c6073348dc2 = L.marker(
+                [36.127, -115.229],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_f9b3af0659f13d185b8d6b07865cf05d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32697758cde5eac99e834c6073348dc2.setIcon(icon_f9b3af0659f13d185b8d6b07865cf05d);
+        
+    
+        var popup_7b7731a0e4e3dab74a700e1048f67fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c667e1be47fc1ba8deed66cdbb832693 = $(`<div id="html_c667e1be47fc1ba8deed66cdbb832693" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_7b7731a0e4e3dab74a700e1048f67fb7.setContent(html_c667e1be47fc1ba8deed66cdbb832693);
+            
+        
+
+        marker_32697758cde5eac99e834c6073348dc2.bindPopup(popup_7b7731a0e4e3dab74a700e1048f67fb7)
+        ;
+
+        
+    
+    
+            var marker_67017abf92923a5b6e06cc017433b28c = L.marker(
+                [36.235, -115.229],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4a0bbdf0d3a9f430a84ae9eb530a812b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67017abf92923a5b6e06cc017433b28c.setIcon(icon_4a0bbdf0d3a9f430a84ae9eb530a812b);
+        
+    
+        var popup_ceaaa48ee202a395f3d4352b78f54eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6c1d23ef06ab2ac2acc735370f83fe3 = $(`<div id="html_f6c1d23ef06ab2ac2acc735370f83fe3" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_ceaaa48ee202a395f3d4352b78f54eb8.setContent(html_f6c1d23ef06ab2ac2acc735370f83fe3);
+            
+        
+
+        marker_67017abf92923a5b6e06cc017433b28c.bindPopup(popup_ceaaa48ee202a395f3d4352b78f54eb8)
+        ;
+
+        
+    
+    
+            var marker_8bc69830cadcf6bef384b5ec258d7183 = L.marker(
+                [36.144, -115.217],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_8105da3ac7808cab6cb7be729df0a733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8bc69830cadcf6bef384b5ec258d7183.setIcon(icon_8105da3ac7808cab6cb7be729df0a733);
+        
+    
+        var popup_6dc6c63723ced06b5431d6dec528e0aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b5edae6d128e3d87e1cdd4b3682504b = $(`<div id="html_0b5edae6d128e3d87e1cdd4b3682504b" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_6dc6c63723ced06b5431d6dec528e0aa.setContent(html_0b5edae6d128e3d87e1cdd4b3682504b);
+            
+        
+
+        marker_8bc69830cadcf6bef384b5ec258d7183.bindPopup(popup_6dc6c63723ced06b5431d6dec528e0aa)
+        ;
+
+        
+    
+    
+            var marker_0c01c2ca6d216881980e3a9adbaa8ab0 = L.marker(
+                [36.137, -115.199],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_914e8b1d34372e30caf57c361a3e6b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c01c2ca6d216881980e3a9adbaa8ab0.setIcon(icon_914e8b1d34372e30caf57c361a3e6b77);
+        
+    
+        var popup_e15183d8a010ebf5830294bab5bafd6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4e99c0fe62c0d1836747dfde5c554e = $(`<div id="html_4d4e99c0fe62c0d1836747dfde5c554e" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_e15183d8a010ebf5830294bab5bafd6c.setContent(html_4d4e99c0fe62c0d1836747dfde5c554e);
+            
+        
+
+        marker_0c01c2ca6d216881980e3a9adbaa8ab0.bindPopup(popup_e15183d8a010ebf5830294bab5bafd6c)
+        ;
+
+        
+    
+    
+            var marker_e6c0caea99f48a7e2bcf30b564354170 = L.marker(
+                [36.105, -115.195],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_576f64b7d6591fe9db4f2862e4cb9a49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6c0caea99f48a7e2bcf30b564354170.setIcon(icon_576f64b7d6591fe9db4f2862e4cb9a49);
+        
+    
+        var popup_eaec5bab88a85c7ca6304b933929f1db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_351117b279984016eb2e52a547e83521 = $(`<div id="html_351117b279984016eb2e52a547e83521" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_eaec5bab88a85c7ca6304b933929f1db.setContent(html_351117b279984016eb2e52a547e83521);
+            
+        
+
+        marker_e6c0caea99f48a7e2bcf30b564354170.bindPopup(popup_eaec5bab88a85c7ca6304b933929f1db)
+        ;
+
+        
+    
+    
+            var marker_e946a9b9a856098207e5a733e9b03282 = L.marker(
+                [36.115, -115.173],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4870c2d6c91e6cc108c04548c4b9f8d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e946a9b9a856098207e5a733e9b03282.setIcon(icon_4870c2d6c91e6cc108c04548c4b9f8d8);
+        
+    
+        var popup_0b183bbae84e61ca0c21ab6b3bc29396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e312257008506111590be1dcf482c97f = $(`<div id="html_e312257008506111590be1dcf482c97f" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_0b183bbae84e61ca0c21ab6b3bc29396.setContent(html_e312257008506111590be1dcf482c97f);
+            
+        
+
+        marker_e946a9b9a856098207e5a733e9b03282.bindPopup(popup_0b183bbae84e61ca0c21ab6b3bc29396)
+        ;
+
+        
+    
+    
+            var marker_d052cb1db49e62162dda835e43c6a58d = L.marker(
+                [36.183, -115.17],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_227c9c7030e3283eefe031ca1d1a7d4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d052cb1db49e62162dda835e43c6a58d.setIcon(icon_227c9c7030e3283eefe031ca1d1a7d4b);
+        
+    
+        var popup_9b7bcc4cd18a2dfd21801849ad35a9ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e991d516e2b49759c44fd9865f50a5e = $(`<div id="html_7e991d516e2b49759c44fd9865f50a5e" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_9b7bcc4cd18a2dfd21801849ad35a9ff.setContent(html_7e991d516e2b49759c44fd9865f50a5e);
+            
+        
+
+        marker_d052cb1db49e62162dda835e43c6a58d.bindPopup(popup_9b7bcc4cd18a2dfd21801849ad35a9ff)
+        ;
+
+        
+    
+    
+            var marker_2152200af490e75112a81183f0483e07 = L.marker(
+                [36.147, -115.159],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_23e32d8725f6f9924f29fa8682d7b97a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2152200af490e75112a81183f0483e07.setIcon(icon_23e32d8725f6f9924f29fa8682d7b97a);
+        
+    
+        var popup_c6963cbf1f83473135e04404e5254261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d47957ac35267edfa66709500b6b842d = $(`<div id="html_d47957ac35267edfa66709500b6b842d" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_c6963cbf1f83473135e04404e5254261.setContent(html_d47957ac35267edfa66709500b6b842d);
+            
+        
+
+        marker_2152200af490e75112a81183f0483e07.bindPopup(popup_c6963cbf1f83473135e04404e5254261)
+        ;
+
+        
+    
+    
+            var marker_bc38c3eeb45775384d6457f8227e162d = L.marker(
+                [36.148, -115.154],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_a3c2d6d7211198b3e191e32b4f94bf7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc38c3eeb45775384d6457f8227e162d.setIcon(icon_a3c2d6d7211198b3e191e32b4f94bf7e);
+        
+    
+        var popup_3a5ea8cfe7dc50adb34479d06ea6e4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b683bd27aab9669df39fae64ce4170db = $(`<div id="html_b683bd27aab9669df39fae64ce4170db" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_3a5ea8cfe7dc50adb34479d06ea6e4c7.setContent(html_b683bd27aab9669df39fae64ce4170db);
+            
+        
+
+        marker_bc38c3eeb45775384d6457f8227e162d.bindPopup(popup_3a5ea8cfe7dc50adb34479d06ea6e4c7)
+        ;
+
+        
+    
+    
+            var marker_22f0a8d24a2cfca332955161caaa71c5 = L.marker(
+                [36.007, -115.146],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_a81c53b12a821a794c063a05a22cfde1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22f0a8d24a2cfca332955161caaa71c5.setIcon(icon_a81c53b12a821a794c063a05a22cfde1);
+        
+    
+        var popup_87b3d9a11f9d23b40269ceae048f9087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_886021b0ed45aad911b7f803adead549 = $(`<div id="html_886021b0ed45aad911b7f803adead549" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_87b3d9a11f9d23b40269ceae048f9087.setContent(html_886021b0ed45aad911b7f803adead549);
+            
+        
+
+        marker_22f0a8d24a2cfca332955161caaa71c5.bindPopup(popup_87b3d9a11f9d23b40269ceae048f9087)
+        ;
+
+        
+    
+    
+            var marker_f9a1d8b8fbe78c6586f39f193573a41a = L.marker(
+                [36.115, -115.146],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1379e54bb6e3da23bcdbf7e0c55f6d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9a1d8b8fbe78c6586f39f193573a41a.setIcon(icon_1379e54bb6e3da23bcdbf7e0c55f6d0b);
+        
+    
+        var popup_71bd3665ef9f8fec878093fd9fe71ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da3fb565832dff4d717049053921aca1 = $(`<div id="html_da3fb565832dff4d717049053921aca1" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_71bd3665ef9f8fec878093fd9fe71ae7.setContent(html_da3fb565832dff4d717049053921aca1);
+            
+        
+
+        marker_f9a1d8b8fbe78c6586f39f193573a41a.bindPopup(popup_71bd3665ef9f8fec878093fd9fe71ae7)
+        ;
+
+        
+    
+    
+            var marker_238cc1cd7e520d8b229a4703c8330ee0 = L.marker(
+                [36.165, -115.142],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_10bc586ec89f71038b6e3414382eb8b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_238cc1cd7e520d8b229a4703c8330ee0.setIcon(icon_10bc586ec89f71038b6e3414382eb8b9);
+        
+    
+        var popup_d98dc34a190c1fa8c7ee01246b10e713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a6213b258ce5dfddd5eca15c653dce = $(`<div id="html_08a6213b258ce5dfddd5eca15c653dce" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_d98dc34a190c1fa8c7ee01246b10e713.setContent(html_08a6213b258ce5dfddd5eca15c653dce);
+            
+        
+
+        marker_238cc1cd7e520d8b229a4703c8330ee0.bindPopup(popup_d98dc34a190c1fa8c7ee01246b10e713)
+        ;
+
+        
+    
+    
+            var marker_16b9e8a46c6840d1bea97443df165588 = L.marker(
+                [36.038, -115.137],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1faee50742f561e1ce0c2b948de5bfde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16b9e8a46c6840d1bea97443df165588.setIcon(icon_1faee50742f561e1ce0c2b948de5bfde);
+        
+    
+        var popup_891a06d9cff06989211e4c9a71b99f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9a4e5037c7aa28a051d9843a8d67eb7 = $(`<div id="html_b9a4e5037c7aa28a051d9843a8d67eb7" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_891a06d9cff06989211e4c9a71b99f5a.setContent(html_b9a4e5037c7aa28a051d9843a8d67eb7);
+            
+        
+
+        marker_16b9e8a46c6840d1bea97443df165588.bindPopup(popup_891a06d9cff06989211e4c9a71b99f5a)
+        ;
+
+        
+    
+    
+            var marker_7630f50eaf88d6dd6d3978cf758fc846 = L.marker(
+                [36.165, -115.124],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b4a307210ce372c8bd2d1d2be8772104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7630f50eaf88d6dd6d3978cf758fc846.setIcon(icon_b4a307210ce372c8bd2d1d2be8772104);
+        
+    
+        var popup_69e307b512f78f31601c93466e7c9304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05717afd6fd0e6d66dfb3efb08d62fd2 = $(`<div id="html_05717afd6fd0e6d66dfb3efb08d62fd2" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_69e307b512f78f31601c93466e7c9304.setContent(html_05717afd6fd0e6d66dfb3efb08d62fd2);
+            
+        
+
+        marker_7630f50eaf88d6dd6d3978cf758fc846.bindPopup(popup_69e307b512f78f31601c93466e7c9304)
+        ;
+
+        
+    
+    
+            var marker_17aaf5aa63f311698b5307050f300461 = L.marker(
+                [36.199, -115.118],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_a4fb098e3747cc49999331b7b4312fc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17aaf5aa63f311698b5307050f300461.setIcon(icon_a4fb098e3747cc49999331b7b4312fc4);
+        
+    
+        var popup_341e3604839e77064004513b142b3d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d9e2dd1a9ce1ea9b6ed4e0fa474aa4a = $(`<div id="html_6d9e2dd1a9ce1ea9b6ed4e0fa474aa4a" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_341e3604839e77064004513b142b3d10.setContent(html_6d9e2dd1a9ce1ea9b6ed4e0fa474aa4a);
+            
+        
+
+        marker_17aaf5aa63f311698b5307050f300461.bindPopup(popup_341e3604839e77064004513b142b3d10)
+        ;
+
+        
+    
+    
+            var marker_cbb44432772c6bd62bfcaa9f1e62e103 = L.marker(
+                [36.159, -115.108],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1f027033a800945a71fa60ea248a868d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbb44432772c6bd62bfcaa9f1e62e103.setIcon(icon_1f027033a800945a71fa60ea248a868d);
+        
+    
+        var popup_2a231c8f94bcf334773851e4b33c0662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04223fd6a2f3515a73404729a7a67eeb = $(`<div id="html_04223fd6a2f3515a73404729a7a67eeb" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_2a231c8f94bcf334773851e4b33c0662.setContent(html_04223fd6a2f3515a73404729a7a67eeb);
+            
+        
+
+        marker_cbb44432772c6bd62bfcaa9f1e62e103.bindPopup(popup_2a231c8f94bcf334773851e4b33c0662)
+        ;
+
+        
+    
+    
+            var marker_5ade690580cbfa0fa08bb16c1e9cade6 = L.marker(
+                [36.136, -115.088],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1c13567d5388a964aaccc2b57e8ae773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ade690580cbfa0fa08bb16c1e9cade6.setIcon(icon_1c13567d5388a964aaccc2b57e8ae773);
+        
+    
+        var popup_11d9ce1355cee64cff4d2f5d6bc8fc1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fae11b416534e166fe82de15aee4b3af = $(`<div id="html_fae11b416534e166fe82de15aee4b3af" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_11d9ce1355cee64cff4d2f5d6bc8fc1d.setContent(html_fae11b416534e166fe82de15aee4b3af);
+            
+        
+
+        marker_5ade690580cbfa0fa08bb16c1e9cade6.bindPopup(popup_11d9ce1355cee64cff4d2f5d6bc8fc1d)
+        ;
+
+        
+    
+    
+            var marker_9cf3f5a5cf0954ae96c4f7b6c3af51c5 = L.marker(
+                [36.228, -115.064],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_10c65ac89a88c646cfd155463cb44b22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cf3f5a5cf0954ae96c4f7b6c3af51c5.setIcon(icon_10c65ac89a88c646cfd155463cb44b22);
+        
+    
+        var popup_7aba4dbf136b44b56f64b22c7e9f741b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9510b523372a803be21b6b398a0763d7 = $(`<div id="html_9510b523372a803be21b6b398a0763d7" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_7aba4dbf136b44b56f64b22c7e9f741b.setContent(html_9510b523372a803be21b6b398a0763d7);
+            
+        
+
+        marker_9cf3f5a5cf0954ae96c4f7b6c3af51c5.bindPopup(popup_7aba4dbf136b44b56f64b22c7e9f741b)
+        ;
+
+        
+    
+    
+            var marker_0a3474687ef4e7d90da80228f9bf7302 = L.marker(
+                [36.2, -115.06],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_77b62876ae86b50c3c4af7c57b87231d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a3474687ef4e7d90da80228f9bf7302.setIcon(icon_77b62876ae86b50c3c4af7c57b87231d);
+        
+    
+        var popup_9354c565ed126b9608d8329d5166deab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c4e8ac67f7d39551000d706b1fe9650 = $(`<div id="html_9c4e8ac67f7d39551000d706b1fe9650" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_9354c565ed126b9608d8329d5166deab.setContent(html_9c4e8ac67f7d39551000d706b1fe9650);
+            
+        
+
+        marker_0a3474687ef4e7d90da80228f9bf7302.bindPopup(popup_9354c565ed126b9608d8329d5166deab)
+        ;
+
+        
+    
+    
+            var marker_06f45b48a489e062f211d1add35c06d7 = L.marker(
+                [36.102, -115.054],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_7015ef090b127be276bcb7ab6afdd480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06f45b48a489e062f211d1add35c06d7.setIcon(icon_7015ef090b127be276bcb7ab6afdd480);
+        
+    
+        var popup_37a98f240be55d641ad0d5e0798ba209 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b172d8d0f063b2c79b5c5e81b6bf116f = $(`<div id="html_b172d8d0f063b2c79b5c5e81b6bf116f" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_37a98f240be55d641ad0d5e0798ba209.setContent(html_b172d8d0f063b2c79b5c5e81b6bf116f);
+            
+        
+
+        marker_06f45b48a489e062f211d1add35c06d7.bindPopup(popup_37a98f240be55d641ad0d5e0798ba209)
+        ;
+
+        
+    
+    
+            var marker_a09e5664b8ba9ab6d6ef22032c823d62 = L.marker(
+                [36.196, -115.051],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b6ca06a43ab96f9ed3df113de46f9a69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a09e5664b8ba9ab6d6ef22032c823d62.setIcon(icon_b6ca06a43ab96f9ed3df113de46f9a69);
+        
+    
+        var popup_ae7a3a3bade78bb80a8e307d51ea56e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a9f51a56a6623b84bd1d3924205806 = $(`<div id="html_a0a9f51a56a6623b84bd1d3924205806" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_ae7a3a3bade78bb80a8e307d51ea56e1.setContent(html_a0a9f51a56a6623b84bd1d3924205806);
+            
+        
+
+        marker_a09e5664b8ba9ab6d6ef22032c823d62.bindPopup(popup_ae7a3a3bade78bb80a8e307d51ea56e1)
+        ;
+
+        
+    
+    
+            var marker_7f935b347d486645745a3e56e48e38d1 = L.marker(
+                [36.164, -115.041],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_fefa715f27f0ee83c9466b8102374ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f935b347d486645745a3e56e48e38d1.setIcon(icon_fefa715f27f0ee83c9466b8102374ca4);
+        
+    
+        var popup_483e3ec8d54d12ebddf934e39ec3281e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4122f1ae4078e701746df2f4d52ae808 = $(`<div id="html_4122f1ae4078e701746df2f4d52ae808" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_483e3ec8d54d12ebddf934e39ec3281e.setContent(html_4122f1ae4078e701746df2f4d52ae808);
+            
+        
+
+        marker_7f935b347d486645745a3e56e48e38d1.bindPopup(popup_483e3ec8d54d12ebddf934e39ec3281e)
+        ;
+
+        
+    
+    
+            var marker_783067a9d0a19fbd324f1c2df8738b98 = L.marker(
+                [36.191, -115.038],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c812bd03e3487d579fdd3509e59cae17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_783067a9d0a19fbd324f1c2df8738b98.setIcon(icon_c812bd03e3487d579fdd3509e59cae17);
+        
+    
+        var popup_f86e3b3b0d5b6dd36e8d087adf26e6df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c73ec6f04e66842676ef7bc5d02e256 = $(`<div id="html_3c73ec6f04e66842676ef7bc5d02e256" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_f86e3b3b0d5b6dd36e8d087adf26e6df.setContent(html_3c73ec6f04e66842676ef7bc5d02e256);
+            
+        
+
+        marker_783067a9d0a19fbd324f1c2df8738b98.bindPopup(popup_f86e3b3b0d5b6dd36e8d087adf26e6df)
+        ;
+
+        
+    
+    
+            var marker_7c4dda7be906c077281b752b995786b6 = L.marker(
+                [36.198, -115.018],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2ab96eb4e76b42de1308ab377a582052 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c4dda7be906c077281b752b995786b6.setIcon(icon_2ab96eb4e76b42de1308ab377a582052);
+        
+    
+        var popup_6c030414e511566cb17b78cbcfdf2585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9850ed2792ebbb7ae800ddc7d5f30991 = $(`<div id="html_9850ed2792ebbb7ae800ddc7d5f30991" style="width: 100.0%; height: 100.0%;">Las Vegas, NV</div>`)[0];
+                popup_6c030414e511566cb17b78cbcfdf2585.setContent(html_9850ed2792ebbb7ae800ddc7d5f30991);
+            
+        
+
+        marker_7c4dda7be906c077281b752b995786b6.bindPopup(popup_6c030414e511566cb17b78cbcfdf2585)
+        ;
+
+        
+    
+    
+            var marker_215926784f8224cb2ad30c91cd4652f2 = L.marker(
+                [29.786296296296296, -95.41844444444445],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var div_icon_a00432cf64da8340e4696c6cec2ba4f3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size: 12px\"\u003e\u003cb\u003eHouston, TX\u003c/b\u003e\u003cbr\u003e32 incidents (B: 13, H: 5, A: 2, W: 1)\u003c/div\u003e"});
+            marker_215926784f8224cb2ad30c91cd4652f2.setIcon(div_icon_a00432cf64da8340e4696c6cec2ba4f3);
+        
+    
+            var marker_d4c6de5aa99cf5b5d96bae12f3cb921b = L.marker(
+                [29.704, -95.622],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_d00227b4781ecfe8c9e6a01c06e447ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4c6de5aa99cf5b5d96bae12f3cb921b.setIcon(icon_d00227b4781ecfe8c9e6a01c06e447ec);
+        
+    
+        var popup_500d2804f4eb48e05cb706cca4d197e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba8bdd3e666454c6054f65e8e6e769b = $(`<div id="html_7ba8bdd3e666454c6054f65e8e6e769b" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_500d2804f4eb48e05cb706cca4d197e0.setContent(html_7ba8bdd3e666454c6054f65e8e6e769b);
+            
+        
+
+        marker_d4c6de5aa99cf5b5d96bae12f3cb921b.bindPopup(popup_500d2804f4eb48e05cb706cca4d197e0)
+        ;
+
+        
+    
+    
+            var marker_d30c94cfef7ca7daab5706728b37a489 = L.marker(
+                [29.689, -95.557],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0be05bfe8d615afbdcdf437e77c0dbb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d30c94cfef7ca7daab5706728b37a489.setIcon(icon_0be05bfe8d615afbdcdf437e77c0dbb4);
+        
+    
+        var popup_081821130edb3198159ddb269c852569 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c189405d2095d8bb6f3384dd81094fbd = $(`<div id="html_c189405d2095d8bb6f3384dd81094fbd" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_081821130edb3198159ddb269c852569.setContent(html_c189405d2095d8bb6f3384dd81094fbd);
+            
+        
+
+        marker_d30c94cfef7ca7daab5706728b37a489.bindPopup(popup_081821130edb3198159ddb269c852569)
+        ;
+
+        
+    
+    
+            var marker_2f778ad3961d13d76494bb288bfd9d26 = L.marker(
+                [29.595, -95.519],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_77834fdedebe7437594313d7635ef14f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f778ad3961d13d76494bb288bfd9d26.setIcon(icon_77834fdedebe7437594313d7635ef14f);
+        
+    
+        var popup_691e33dfbda7eeadefd0b01f4b7d2438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_301511d48ba18ab9fa51bb79314f829e = $(`<div id="html_301511d48ba18ab9fa51bb79314f829e" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_691e33dfbda7eeadefd0b01f4b7d2438.setContent(html_301511d48ba18ab9fa51bb79314f829e);
+            
+        
+
+        marker_2f778ad3961d13d76494bb288bfd9d26.bindPopup(popup_691e33dfbda7eeadefd0b01f4b7d2438)
+        ;
+
+        
+    
+    
+            var marker_326c976cc724d8ce64362f09160c8844 = L.marker(
+                [29.738, -95.517],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c987d510771136d7f4b7c07dd191309e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_326c976cc724d8ce64362f09160c8844.setIcon(icon_c987d510771136d7f4b7c07dd191309e);
+        
+    
+        var popup_6de01bfd810d1b9dfda45203e133592d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7590877b6dc64b082151f40841dffa59 = $(`<div id="html_7590877b6dc64b082151f40841dffa59" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_6de01bfd810d1b9dfda45203e133592d.setContent(html_7590877b6dc64b082151f40841dffa59);
+            
+        
+
+        marker_326c976cc724d8ce64362f09160c8844.bindPopup(popup_6de01bfd810d1b9dfda45203e133592d)
+        ;
+
+        
+    
+    
+            var marker_ebf489de546f0144844ce423f4bbe149 = L.marker(
+                [29.935, -95.496],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_36555cf24453a7d3dbe379dc55a3c41a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebf489de546f0144844ce423f4bbe149.setIcon(icon_36555cf24453a7d3dbe379dc55a3c41a);
+        
+    
+        var popup_3a83775c1137a06abd3fb2dee2b38656 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e083adbf165ecb53dc4b677ad866a0f5 = $(`<div id="html_e083adbf165ecb53dc4b677ad866a0f5" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_3a83775c1137a06abd3fb2dee2b38656.setContent(html_e083adbf165ecb53dc4b677ad866a0f5);
+            
+        
+
+        marker_ebf489de546f0144844ce423f4bbe149.bindPopup(popup_3a83775c1137a06abd3fb2dee2b38656)
+        ;
+
+        
+    
+    
+            var marker_7ba78a8df510763e994a8da9032d386d = L.marker(
+                [29.994, -95.488],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2e8a50d69f03da05c223d948f3bc548e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ba78a8df510763e994a8da9032d386d.setIcon(icon_2e8a50d69f03da05c223d948f3bc548e);
+        
+    
+        var popup_5a0168c4d6d0d77e983ca6809a7e5b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5e6a7f916a1066ff78caaaf1162af23 = $(`<div id="html_d5e6a7f916a1066ff78caaaf1162af23" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_5a0168c4d6d0d77e983ca6809a7e5b1f.setContent(html_d5e6a7f916a1066ff78caaaf1162af23);
+            
+        
+
+        marker_7ba78a8df510763e994a8da9032d386d.bindPopup(popup_5a0168c4d6d0d77e983ca6809a7e5b1f)
+        ;
+
+        
+    
+    
+            var marker_6c5daeb6a57c2de38e183e9465f496f4 = L.marker(
+                [29.884, -95.474],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c41f290d868c4502b9cfb5e69bab5dd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c5daeb6a57c2de38e183e9465f496f4.setIcon(icon_c41f290d868c4502b9cfb5e69bab5dd3);
+        
+    
+        var popup_31aca88cc50e02f061b10000e48f45d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcd520323ac3c23aa7d718532f326f84 = $(`<div id="html_bcd520323ac3c23aa7d718532f326f84" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_31aca88cc50e02f061b10000e48f45d1.setContent(html_bcd520323ac3c23aa7d718532f326f84);
+            
+        
+
+        marker_6c5daeb6a57c2de38e183e9465f496f4.bindPopup(popup_31aca88cc50e02f061b10000e48f45d1)
+        ;
+
+        
+    
+    
+            var marker_0acf1ec349d491f80cd2c73a346a0202 = L.marker(
+                [29.723, -95.459],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2039650e66769bac934f7c3e06a59307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0acf1ec349d491f80cd2c73a346a0202.setIcon(icon_2039650e66769bac934f7c3e06a59307);
+        
+    
+        var popup_065d7d3a7296cbcbce289c311ba627b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_011e93420b8f9a3e020a9a60ba8fa665 = $(`<div id="html_011e93420b8f9a3e020a9a60ba8fa665" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_065d7d3a7296cbcbce289c311ba627b7.setContent(html_011e93420b8f9a3e020a9a60ba8fa665);
+            
+        
+
+        marker_0acf1ec349d491f80cd2c73a346a0202.bindPopup(popup_065d7d3a7296cbcbce289c311ba627b7)
+        ;
+
+        
+    
+    
+            var marker_8c1d80e556054e6b6f45db1fdc29a6cf = L.marker(
+                [29.862, -95.45],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_8862c4b53c36425f7a40d8090c06c496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c1d80e556054e6b6f45db1fdc29a6cf.setIcon(icon_8862c4b53c36425f7a40d8090c06c496);
+        
+    
+        var popup_4cd572a164142a4f4d61ead7714f5b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_077800a8c31503a622a5d8090567aa39 = $(`<div id="html_077800a8c31503a622a5d8090567aa39" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_4cd572a164142a4f4d61ead7714f5b86.setContent(html_077800a8c31503a622a5d8090567aa39);
+            
+        
+
+        marker_8c1d80e556054e6b6f45db1fdc29a6cf.bindPopup(popup_4cd572a164142a4f4d61ead7714f5b86)
+        ;
+
+        
+    
+    
+            var marker_2e871a8b127393f1f426d4864beb13d6 = L.marker(
+                [29.603, -95.428],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_1f27d79f90e264c54ab0236d5a442d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e871a8b127393f1f426d4864beb13d6.setIcon(icon_1f27d79f90e264c54ab0236d5a442d0d);
+        
+    
+        var popup_286f3f71a7a0f49d49195f23666ce4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8228681b094c5fd4de3ed5d4a5605299 = $(`<div id="html_8228681b094c5fd4de3ed5d4a5605299" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_286f3f71a7a0f49d49195f23666ce4a5.setContent(html_8228681b094c5fd4de3ed5d4a5605299);
+            
+        
+
+        marker_2e871a8b127393f1f426d4864beb13d6.bindPopup(popup_286f3f71a7a0f49d49195f23666ce4a5)
+        ;
+
+        
+    
+    
+            var marker_126188fd3ffc5ab36480c82411bc674e = L.marker(
+                [30.007, -95.426],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_338e2c6f04cc7b4fbf860d1000a4dd80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_126188fd3ffc5ab36480c82411bc674e.setIcon(icon_338e2c6f04cc7b4fbf860d1000a4dd80);
+        
+    
+        var popup_9546bf81a3d1182b9d1d4ffed402d417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f68ef362870444d79722d8bf87d2835 = $(`<div id="html_2f68ef362870444d79722d8bf87d2835" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_9546bf81a3d1182b9d1d4ffed402d417.setContent(html_2f68ef362870444d79722d8bf87d2835);
+            
+        
+
+        marker_126188fd3ffc5ab36480c82411bc674e.bindPopup(popup_9546bf81a3d1182b9d1d4ffed402d417)
+        ;
+
+        
+    
+    
+            var marker_e1040a1ced60772a7985b429d7f5fe3c = L.marker(
+                [29.898, -95.414],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_99c3641e359569f027889242a5c2d4e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1040a1ced60772a7985b429d7f5fe3c.setIcon(icon_99c3641e359569f027889242a5c2d4e0);
+        
+    
+        var popup_f7bf18ae66be3a94083cb4e461dfe74e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09df7556f43da2144729c1d4e3ca0e99 = $(`<div id="html_09df7556f43da2144729c1d4e3ca0e99" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_f7bf18ae66be3a94083cb4e461dfe74e.setContent(html_09df7556f43da2144729c1d4e3ca0e99);
+            
+        
+
+        marker_e1040a1ced60772a7985b429d7f5fe3c.bindPopup(popup_f7bf18ae66be3a94083cb4e461dfe74e)
+        ;
+
+        
+    
+    
+            var marker_d6582a22f860d0ef79c713cb968b2e78 = L.marker(
+                [29.925, -95.408],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_796dcc0e7a695f364f5fb7ceaea1818f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d6582a22f860d0ef79c713cb968b2e78.setIcon(icon_796dcc0e7a695f364f5fb7ceaea1818f);
+        
+    
+        var popup_9bf2c80bb391a90021d0d46a126af802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc6694460c193235a7b7a9e21df55d8c = $(`<div id="html_cc6694460c193235a7b7a9e21df55d8c" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_9bf2c80bb391a90021d0d46a126af802.setContent(html_cc6694460c193235a7b7a9e21df55d8c);
+            
+        
+
+        marker_d6582a22f860d0ef79c713cb968b2e78.bindPopup(popup_9bf2c80bb391a90021d0d46a126af802)
+        ;
+
+        
+    
+    
+            var marker_294c679e341e9bbece2ac9ff8607333c = L.marker(
+                [29.759, -95.405],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_90bd0fffc94afb30201a0d8b36e3f144 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_294c679e341e9bbece2ac9ff8607333c.setIcon(icon_90bd0fffc94afb30201a0d8b36e3f144);
+        
+    
+        var popup_1aca5296ae0ff9cb6ca41ea326b9ff38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c3d7f8120dbe57c7bbfefd072e30927 = $(`<div id="html_8c3d7f8120dbe57c7bbfefd072e30927" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_1aca5296ae0ff9cb6ca41ea326b9ff38.setContent(html_8c3d7f8120dbe57c7bbfefd072e30927);
+            
+        
+
+        marker_294c679e341e9bbece2ac9ff8607333c.bindPopup(popup_1aca5296ae0ff9cb6ca41ea326b9ff38)
+        ;
+
+        
+    
+    
+            var marker_a576535de81e57c47ce655e4b2e950f4 = L.marker(
+                [29.827, -95.4],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2a2b28ba2e570fd51686057a86f50615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a576535de81e57c47ce655e4b2e950f4.setIcon(icon_2a2b28ba2e570fd51686057a86f50615);
+        
+    
+        var popup_ef183d36ae58be94f866eaff9ba60fca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b3ad916be7ea16da659c668364320df = $(`<div id="html_6b3ad916be7ea16da659c668364320df" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_ef183d36ae58be94f866eaff9ba60fca.setContent(html_6b3ad916be7ea16da659c668364320df);
+            
+        
+
+        marker_a576535de81e57c47ce655e4b2e950f4.bindPopup(popup_ef183d36ae58be94f866eaff9ba60fca)
+        ;
+
+        
+    
+    
+            var marker_a4575ae8286214bfa54dd504c620345e = L.marker(
+                [29.689, -95.398],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_125ab28e4033b7ddf7c76e0035b57923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a4575ae8286214bfa54dd504c620345e.setIcon(icon_125ab28e4033b7ddf7c76e0035b57923);
+        
+    
+        var popup_4af56d981138b9659a4bb88a5f74530b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e3f8261b3e644226df4269f2809a43 = $(`<div id="html_19e3f8261b3e644226df4269f2809a43" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_4af56d981138b9659a4bb88a5f74530b.setContent(html_19e3f8261b3e644226df4269f2809a43);
+            
+        
+
+        marker_a4575ae8286214bfa54dd504c620345e.bindPopup(popup_4af56d981138b9659a4bb88a5f74530b)
+        ;
+
+        
+    
+    
+            var marker_f1cfb643629f53e43f370c77a16299f1 = L.marker(
+                [29.896, -95.398],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_6a3481561307066e4e5fa732aba845a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1cfb643629f53e43f370c77a16299f1.setIcon(icon_6a3481561307066e4e5fa732aba845a5);
+        
+    
+        var popup_b400b2b3069a618979dfbb8ab8bc6977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2a5990a54208422e4dae41b44272a6 = $(`<div id="html_4d2a5990a54208422e4dae41b44272a6" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_b400b2b3069a618979dfbb8ab8bc6977.setContent(html_4d2a5990a54208422e4dae41b44272a6);
+            
+        
+
+        marker_f1cfb643629f53e43f370c77a16299f1.bindPopup(popup_b400b2b3069a618979dfbb8ab8bc6977)
+        ;
+
+        
+    
+    
+            var marker_e09a6e6b32017c632bf9d38457aeb0c0 = L.marker(
+                [29.94, -95.396],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_9ddecc7935ffc9841c66f0dc5ef4fe1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e09a6e6b32017c632bf9d38457aeb0c0.setIcon(icon_9ddecc7935ffc9841c66f0dc5ef4fe1f);
+        
+    
+        var popup_8a7c646affd8a3a8d9e427c96bd640c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4fe44a686f3f7e00779237a02848fb = $(`<div id="html_5a4fe44a686f3f7e00779237a02848fb" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_8a7c646affd8a3a8d9e427c96bd640c1.setContent(html_5a4fe44a686f3f7e00779237a02848fb);
+            
+        
+
+        marker_e09a6e6b32017c632bf9d38457aeb0c0.bindPopup(popup_8a7c646affd8a3a8d9e427c96bd640c1)
+        ;
+
+        
+    
+    
+            var marker_e5e1aab163531f78eedd041c409c5994 = L.marker(
+                [29.76, -95.37],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_83fc114e5b706448acd8524495d2596b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5e1aab163531f78eedd041c409c5994.setIcon(icon_83fc114e5b706448acd8524495d2596b);
+        
+    
+        var popup_7c3035bbd01267ec8a39681389219a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17a0c571de61d22c1d87dff4d83e8664 = $(`<div id="html_17a0c571de61d22c1d87dff4d83e8664" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_7c3035bbd01267ec8a39681389219a13.setContent(html_17a0c571de61d22c1d87dff4d83e8664);
+            
+        
+
+        marker_e5e1aab163531f78eedd041c409c5994.bindPopup(popup_7c3035bbd01267ec8a39681389219a13)
+        ;
+
+        
+    
+    
+            var marker_44aba3ee389a1b70ac6a7218e1efa41e = L.marker(
+                [29.876, -95.367],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0fe2f842a87499a8299e6e499c65ffce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44aba3ee389a1b70ac6a7218e1efa41e.setIcon(icon_0fe2f842a87499a8299e6e499c65ffce);
+        
+    
+        var popup_a29c36d07429e46e71277166a64fbb2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0a01252602e533c8af84bfcd44522c = $(`<div id="html_ee0a01252602e533c8af84bfcd44522c" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_a29c36d07429e46e71277166a64fbb2e.setContent(html_ee0a01252602e533c8af84bfcd44522c);
+            
+        
+
+        marker_44aba3ee389a1b70ac6a7218e1efa41e.bindPopup(popup_a29c36d07429e46e71277166a64fbb2e)
+        ;
+
+        
+    
+    
+            var marker_0a8e84993d4a8443fab9b0f3940ce046 = L.marker(
+                [29.705, -95.364],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_981ef1beed9ba2dc7af9fee424b5ef94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a8e84993d4a8443fab9b0f3940ce046.setIcon(icon_981ef1beed9ba2dc7af9fee424b5ef94);
+        
+    
+        var popup_00257e3d226c92761b4a99d0b26a77cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6386e4d5ada267f5a9e88d0c40dfbc5a = $(`<div id="html_6386e4d5ada267f5a9e88d0c40dfbc5a" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_00257e3d226c92761b4a99d0b26a77cf.setContent(html_6386e4d5ada267f5a9e88d0c40dfbc5a);
+            
+        
+
+        marker_0a8e84993d4a8443fab9b0f3940ce046.bindPopup(popup_00257e3d226c92761b4a99d0b26a77cf)
+        ;
+
+        
+    
+    
+            var marker_17f19576574a99c853e225bae1165fb1 = L.marker(
+                [29.733, -95.356],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_03bc0f18a4e51cee9a94c2fda3cd42ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17f19576574a99c853e225bae1165fb1.setIcon(icon_03bc0f18a4e51cee9a94c2fda3cd42ff);
+        
+    
+        var popup_d3ac6717f320cb9818248ddca4bfa21a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a241e71079aa224d9a36c30f35325b0 = $(`<div id="html_3a241e71079aa224d9a36c30f35325b0" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_d3ac6717f320cb9818248ddca4bfa21a.setContent(html_3a241e71079aa224d9a36c30f35325b0);
+            
+        
+
+        marker_17f19576574a99c853e225bae1165fb1.bindPopup(popup_d3ac6717f320cb9818248ddca4bfa21a)
+        ;
+
+        
+    
+    
+            var marker_c7ec96827ef5fee4bdcbcf75433e702d = L.marker(
+                [29.689, -95.353],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_e54537adbc332d86b65f7301873eb12b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7ec96827ef5fee4bdcbcf75433e702d.setIcon(icon_e54537adbc332d86b65f7301873eb12b);
+        
+    
+        var popup_784d061bf1eb8e85626522a1c5bbdb26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c53401d237665f353fc9c9031ba77745 = $(`<div id="html_c53401d237665f353fc9c9031ba77745" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_784d061bf1eb8e85626522a1c5bbdb26.setContent(html_c53401d237665f353fc9c9031ba77745);
+            
+        
+
+        marker_c7ec96827ef5fee4bdcbcf75433e702d.bindPopup(popup_784d061bf1eb8e85626522a1c5bbdb26)
+        ;
+
+        
+    
+    
+            var marker_156c2d87aeb0b6834b064eca447c5d16 = L.marker(
+                [29.794, -95.337],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_60eb459b048d206d5cb3cfebbc50d5ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_156c2d87aeb0b6834b064eca447c5d16.setIcon(icon_60eb459b048d206d5cb3cfebbc50d5ae);
+        
+    
+        var popup_1864bab4ec0e7fbc1bcbe974136cfb4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09dfcd57f9e3156ba67b9bcfab5d8b55 = $(`<div id="html_09dfcd57f9e3156ba67b9bcfab5d8b55" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_1864bab4ec0e7fbc1bcbe974136cfb4a.setContent(html_09dfcd57f9e3156ba67b9bcfab5d8b55);
+            
+        
+
+        marker_156c2d87aeb0b6834b064eca447c5d16.bindPopup(popup_1864bab4ec0e7fbc1bcbe974136cfb4a)
+        ;
+
+        
+    
+    
+            var marker_c9d029c9d5451001add7f8b1a47e83c3 = L.marker(
+                [29.621, -95.309],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_743f2a5cd9b135d546a9498556bbce6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9d029c9d5451001add7f8b1a47e83c3.setIcon(icon_743f2a5cd9b135d546a9498556bbce6f);
+        
+    
+        var popup_5137c2a272e1f3ba00eb06216285743b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bc45166185d6bc7cd5d23d096944507 = $(`<div id="html_7bc45166185d6bc7cd5d23d096944507" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_5137c2a272e1f3ba00eb06216285743b.setContent(html_7bc45166185d6bc7cd5d23d096944507);
+            
+        
+
+        marker_c9d029c9d5451001add7f8b1a47e83c3.bindPopup(popup_5137c2a272e1f3ba00eb06216285743b)
+        ;
+
+        
+    
+    
+            var marker_3cae6eff783f27d1828a8b0eb9eccf56 = L.marker(
+                [29.699, -95.294],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c18b3a40426c9207906ddb11885d56b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3cae6eff783f27d1828a8b0eb9eccf56.setIcon(icon_c18b3a40426c9207906ddb11885d56b7);
+        
+    
+        var popup_f3e6ea69d3a90c6cfd8c979950e02f6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc7adcf080c24ef7a83db2272a0023fa = $(`<div id="html_bc7adcf080c24ef7a83db2272a0023fa" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_f3e6ea69d3a90c6cfd8c979950e02f6b.setContent(html_bc7adcf080c24ef7a83db2272a0023fa);
+            
+        
+
+        marker_3cae6eff783f27d1828a8b0eb9eccf56.bindPopup(popup_f3e6ea69d3a90c6cfd8c979950e02f6b)
+        ;
+
+        
+    
+    
+            var marker_36599930d62b0519fc32357987680718 = L.marker(
+                [29.685, -95.293],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0c2a959d9f8c979b82fe7b677a4e80e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_36599930d62b0519fc32357987680718.setIcon(icon_0c2a959d9f8c979b82fe7b677a4e80e7);
+        
+    
+        var popup_5510582669935883d52f695328cb8d30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09e3be8035e2c3714bd746389b6f89b6 = $(`<div id="html_09e3be8035e2c3714bd746389b6f89b6" style="width: 100.0%; height: 100.0%;">Houston, TX</div>`)[0];
+                popup_5510582669935883d52f695328cb8d30.setContent(html_09e3be8035e2c3714bd746389b6f89b6);
+            
+        
+
+        marker_36599930d62b0519fc32357987680718.bindPopup(popup_5510582669935883d52f695328cb8d30)
+        ;
+
+        
+    
+    
+            var marker_96666bf3077085a47a71b67663cc3f9a = L.marker(
+                [35.47490476190476, -97.51119047619048],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var div_icon_93e15573f6c20b20f31cf519c5ba4e41 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-family: Arial; font-size: 12px\"\u003e\u003cb\u003eOklahoma City, OK\u003c/b\u003e\u003cbr\u003e23 incidents (B: 9, W: 7, N: 2, H: 1)\u003c/div\u003e"});
+            marker_96666bf3077085a47a71b67663cc3f9a.setIcon(div_icon_93e15573f6c20b20f31cf519c5ba4e41);
+        
+    
+            var marker_e9ff74259d79db35b4f8f30140d268ea = L.marker(
+                [35.51, -97.707],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b2e6e1e8979505e78182b4da6bdcf3ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9ff74259d79db35b4f8f30140d268ea.setIcon(icon_b2e6e1e8979505e78182b4da6bdcf3ce);
+        
+    
+        var popup_88f867dfb183a2dbfbddb50b75312955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c4f24908123e693344aa1313492cb2 = $(`<div id="html_b2c4f24908123e693344aa1313492cb2" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_88f867dfb183a2dbfbddb50b75312955.setContent(html_b2c4f24908123e693344aa1313492cb2);
+            
+        
+
+        marker_e9ff74259d79db35b4f8f30140d268ea.bindPopup(popup_88f867dfb183a2dbfbddb50b75312955)
+        ;
+
+        
+    
+    
+            var marker_714a3d8d56020ee4bf3f090642e2148f = L.marker(
+                [35.484, -97.623],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_693b81d69865a8499218fa717c8ff50f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_714a3d8d56020ee4bf3f090642e2148f.setIcon(icon_693b81d69865a8499218fa717c8ff50f);
+        
+    
+        var popup_4c6d80c550e3d2d911b240cbd7670215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2da4c10c3155ba16190bbddd3b9d15 = $(`<div id="html_5a2da4c10c3155ba16190bbddd3b9d15" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_4c6d80c550e3d2d911b240cbd7670215.setContent(html_5a2da4c10c3155ba16190bbddd3b9d15);
+            
+        
+
+        marker_714a3d8d56020ee4bf3f090642e2148f.bindPopup(popup_4c6d80c550e3d2d911b240cbd7670215)
+        ;
+
+        
+    
+    
+            var marker_9328444f177b3d0180390aa09142f075 = L.marker(
+                [35.595, -97.621],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0b70595a65830c701aebdf271ba88133 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9328444f177b3d0180390aa09142f075.setIcon(icon_0b70595a65830c701aebdf271ba88133);
+        
+    
+        var popup_bf3bc3fbdc43f2f9beec238be05b3704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e420f22427703c681f0d7dc09b48e28 = $(`<div id="html_8e420f22427703c681f0d7dc09b48e28" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_bf3bc3fbdc43f2f9beec238be05b3704.setContent(html_8e420f22427703c681f0d7dc09b48e28);
+            
+        
+
+        marker_9328444f177b3d0180390aa09142f075.bindPopup(popup_bf3bc3fbdc43f2f9beec238be05b3704)
+        ;
+
+        
+    
+    
+            var marker_4e73a00ad5e8044ef963697244de2a21 = L.marker(
+                [35.464, -97.601],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_b18296a391c9b2dd833f56bb3a254125 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e73a00ad5e8044ef963697244de2a21.setIcon(icon_b18296a391c9b2dd833f56bb3a254125);
+        
+    
+        var popup_80260ce32175ba49f99f8f5b9c78396a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4556c8ac91c5231eabbd43f7ce8949e8 = $(`<div id="html_4556c8ac91c5231eabbd43f7ce8949e8" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_80260ce32175ba49f99f8f5b9c78396a.setContent(html_4556c8ac91c5231eabbd43f7ce8949e8);
+            
+        
+
+        marker_4e73a00ad5e8044ef963697244de2a21.bindPopup(popup_80260ce32175ba49f99f8f5b9c78396a)
+        ;
+
+        
+    
+    
+            var marker_f32c40ec327a77419cc93e2acd58de84 = L.marker(
+                [35.426, -97.583],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_596a5cc7a1df0b0ac0490493e7bad8f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f32c40ec327a77419cc93e2acd58de84.setIcon(icon_596a5cc7a1df0b0ac0490493e7bad8f1);
+        
+    
+        var popup_349d3f10491c371856c7598a09a8a8ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d69ef3e96c0316b7a7fa6582f49cd0 = $(`<div id="html_43d69ef3e96c0316b7a7fa6582f49cd0" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_349d3f10491c371856c7598a09a8a8ad.setContent(html_43d69ef3e96c0316b7a7fa6582f49cd0);
+            
+        
+
+        marker_f32c40ec327a77419cc93e2acd58de84.bindPopup(popup_349d3f10491c371856c7598a09a8a8ad)
+        ;
+
+        
+    
+    
+            var marker_aae8e5f43cf2ab967cbc8247ce1d0a65 = L.marker(
+                [35.505, -97.583],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_bd552cd00bc2c6589ca6489bdd18ec39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aae8e5f43cf2ab967cbc8247ce1d0a65.setIcon(icon_bd552cd00bc2c6589ca6489bdd18ec39);
+        
+    
+        var popup_85355c205fa09eca6f3b78f21e9d7e4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bd968a7ca3798b3bb1cf8de17edcadc = $(`<div id="html_1bd968a7ca3798b3bb1cf8de17edcadc" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_85355c205fa09eca6f3b78f21e9d7e4a.setContent(html_1bd968a7ca3798b3bb1cf8de17edcadc);
+            
+        
+
+        marker_aae8e5f43cf2ab967cbc8247ce1d0a65.bindPopup(popup_85355c205fa09eca6f3b78f21e9d7e4a)
+        ;
+
+        
+    
+    
+            var marker_35916c3573144a956f6023bfca3bda7a = L.marker(
+                [35.418, -97.576],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_2705fdc3ac3cbd90bf98177c9d3cbb16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35916c3573144a956f6023bfca3bda7a.setIcon(icon_2705fdc3ac3cbd90bf98177c9d3cbb16);
+        
+    
+        var popup_94bc7244bf18907a9b282613ea456ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6758c11cca9a6f3ee06ee3c16512c763 = $(`<div id="html_6758c11cca9a6f3ee06ee3c16512c763" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_94bc7244bf18907a9b282613ea456ae3.setContent(html_6758c11cca9a6f3ee06ee3c16512c763);
+            
+        
+
+        marker_35916c3573144a956f6023bfca3bda7a.bindPopup(popup_94bc7244bf18907a9b282613ea456ae3)
+        ;
+
+        
+    
+    
+            var marker_7b65c282d39ce5e374faf0c9d7e81691 = L.marker(
+                [35.513, -97.568],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_742817673456e968ec5bb88da61bfa7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b65c282d39ce5e374faf0c9d7e81691.setIcon(icon_742817673456e968ec5bb88da61bfa7a);
+        
+    
+        var popup_8daebe3b96ee6808a382cd1f6ba35ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62b799aa0adf5b0b9411434767e0558e = $(`<div id="html_62b799aa0adf5b0b9411434767e0558e" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_8daebe3b96ee6808a382cd1f6ba35ae5.setContent(html_62b799aa0adf5b0b9411434767e0558e);
+            
+        
+
+        marker_7b65c282d39ce5e374faf0c9d7e81691.bindPopup(popup_8daebe3b96ee6808a382cd1f6ba35ae5)
+        ;
+
+        
+    
+    
+            var marker_7e16a8282cf50be26fdaaeadc64a80bd = L.marker(
+                [35.442, -97.567],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_d59d5fd4492614c46299952960f6fdeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e16a8282cf50be26fdaaeadc64a80bd.setIcon(icon_d59d5fd4492614c46299952960f6fdeb);
+        
+    
+        var popup_6c62d58356c693cdcc785250d4fe419e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8616cf04e18d3dec444d4e2627c9eb3c = $(`<div id="html_8616cf04e18d3dec444d4e2627c9eb3c" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_6c62d58356c693cdcc785250d4fe419e.setContent(html_8616cf04e18d3dec444d4e2627c9eb3c);
+            
+        
+
+        marker_7e16a8282cf50be26fdaaeadc64a80bd.bindPopup(popup_6c62d58356c693cdcc785250d4fe419e)
+        ;
+
+        
+    
+    
+            var marker_d40bcee57b33101b94773b1b5dbb902c = L.marker(
+                [35.58, -97.549],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_14e3fd63cdcbed87db3da06b2f9e383e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d40bcee57b33101b94773b1b5dbb902c.setIcon(icon_14e3fd63cdcbed87db3da06b2f9e383e);
+        
+    
+        var popup_7c6bc6e6035153fc78c64b13d0cb862c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91a291d29094dbf6755e175f2f4df17e = $(`<div id="html_91a291d29094dbf6755e175f2f4df17e" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_7c6bc6e6035153fc78c64b13d0cb862c.setContent(html_91a291d29094dbf6755e175f2f4df17e);
+            
+        
+
+        marker_d40bcee57b33101b94773b1b5dbb902c.bindPopup(popup_7c6bc6e6035153fc78c64b13d0cb862c)
+        ;
+
+        
+    
+    
+            var marker_c03f8bc0d32eadd8a55001a8bc29ca4f = L.marker(
+                [35.479, -97.528],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_8dacee04657f72ae3ad81b31a157d699 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c03f8bc0d32eadd8a55001a8bc29ca4f.setIcon(icon_8dacee04657f72ae3ad81b31a157d699);
+        
+    
+        var popup_47add544ef00e4c23f41b5a519a62109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2dd4ac3fd44e87ad720de7bfee62add = $(`<div id="html_d2dd4ac3fd44e87ad720de7bfee62add" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_47add544ef00e4c23f41b5a519a62109.setContent(html_d2dd4ac3fd44e87ad720de7bfee62add);
+            
+        
+
+        marker_c03f8bc0d32eadd8a55001a8bc29ca4f.bindPopup(popup_47add544ef00e4c23f41b5a519a62109)
+        ;
+
+        
+    
+    
+            var marker_721ad4c1193c906e7151f8a7a80005c3 = L.marker(
+                [35.593, -97.521],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_7d1241ea75616f018a0474aa22354d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_721ad4c1193c906e7151f8a7a80005c3.setIcon(icon_7d1241ea75616f018a0474aa22354d0b);
+        
+    
+        var popup_da6c97c7f78f19fc2301c7f38c29cdc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8673a6719a4ca9c8cd01e46be2ba4ec = $(`<div id="html_e8673a6719a4ca9c8cd01e46be2ba4ec" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_da6c97c7f78f19fc2301c7f38c29cdc1.setContent(html_e8673a6719a4ca9c8cd01e46be2ba4ec);
+            
+        
+
+        marker_721ad4c1193c906e7151f8a7a80005c3.bindPopup(popup_da6c97c7f78f19fc2301c7f38c29cdc1)
+        ;
+
+        
+    
+    
+            var marker_221038b2802b846f031efb923f7228ff = L.marker(
+                [35.512, -97.52],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_36e89bdacb4801c4d4d95a627250ea92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_221038b2802b846f031efb923f7228ff.setIcon(icon_36e89bdacb4801c4d4d95a627250ea92);
+        
+    
+        var popup_5a96936148da41ff5faf399c783b5f7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdd0d2891282e5bdf7067a16ee706683 = $(`<div id="html_cdd0d2891282e5bdf7067a16ee706683" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_5a96936148da41ff5faf399c783b5f7b.setContent(html_cdd0d2891282e5bdf7067a16ee706683);
+            
+        
+
+        marker_221038b2802b846f031efb923f7228ff.bindPopup(popup_5a96936148da41ff5faf399c783b5f7b)
+        ;
+
+        
+    
+    
+            var marker_077c9bc81adfe5298173bea4b5db42ab = L.marker(
+                [35.404, -97.515],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_79a9614a17cef250d75d19d9b693165b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_077c9bc81adfe5298173bea4b5db42ab.setIcon(icon_79a9614a17cef250d75d19d9b693165b);
+        
+    
+        var popup_6006d94ec660739964875d5c230efc76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33033da8335c886a02cdfb8fb7646009 = $(`<div id="html_33033da8335c886a02cdfb8fb7646009" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_6006d94ec660739964875d5c230efc76.setContent(html_33033da8335c886a02cdfb8fb7646009);
+            
+        
+
+        marker_077c9bc81adfe5298173bea4b5db42ab.bindPopup(popup_6006d94ec660739964875d5c230efc76)
+        ;
+
+        
+    
+    
+            var marker_9bb3b29516b9667a203235a7f6dda218 = L.marker(
+                [35.432, -97.496],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_43c6c5e65b8594c5e84221f1eff0a720 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9bb3b29516b9667a203235a7f6dda218.setIcon(icon_43c6c5e65b8594c5e84221f1eff0a720);
+        
+    
+        var popup_ce1fbaf2b8f76c22c8f6bdab6aaaa0c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b2585327145be86d960b62b43fa18fc = $(`<div id="html_1b2585327145be86d960b62b43fa18fc" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_ce1fbaf2b8f76c22c8f6bdab6aaaa0c3.setContent(html_1b2585327145be86d960b62b43fa18fc);
+            
+        
+
+        marker_9bb3b29516b9667a203235a7f6dda218.bindPopup(popup_ce1fbaf2b8f76c22c8f6bdab6aaaa0c3)
+        ;
+
+        
+    
+    
+            var marker_1d72ebfd4f00396442f278713f7a0ae6 = L.marker(
+                [35.444, -97.49],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_0b27bcf875f5c848c1a233a8b6a0a2ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d72ebfd4f00396442f278713f7a0ae6.setIcon(icon_0b27bcf875f5c848c1a233a8b6a0a2ad);
+        
+    
+        var popup_3a380e9ae2a2d7118c09935a86a2593d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d534d24d35246bc77ad385213eb1f95c = $(`<div id="html_d534d24d35246bc77ad385213eb1f95c" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_3a380e9ae2a2d7118c09935a86a2593d.setContent(html_d534d24d35246bc77ad385213eb1f95c);
+            
+        
+
+        marker_1d72ebfd4f00396442f278713f7a0ae6.bindPopup(popup_3a380e9ae2a2d7118c09935a86a2593d)
+        ;
+
+        
+    
+    
+            var marker_d4dd60c86198036528b106939b591fe8 = L.marker(
+                [35.414, -97.444],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_24b44f06ce73ec659cd12afb55b48d94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4dd60c86198036528b106939b591fe8.setIcon(icon_24b44f06ce73ec659cd12afb55b48d94);
+        
+    
+        var popup_fe5d734f230276a357882aacce89a728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e163f0562215bebb70f36e649f68f4d = $(`<div id="html_0e163f0562215bebb70f36e649f68f4d" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_fe5d734f230276a357882aacce89a728.setContent(html_0e163f0562215bebb70f36e649f68f4d);
+            
+        
+
+        marker_d4dd60c86198036528b106939b591fe8.bindPopup(popup_fe5d734f230276a357882aacce89a728)
+        ;
+
+        
+    
+    
+            var marker_c5f353bbb5f40e60eab8e397126aa2c5 = L.marker(
+                [35.406, -97.424],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_4ec6b7e70900478346cc6caef9820428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c5f353bbb5f40e60eab8e397126aa2c5.setIcon(icon_4ec6b7e70900478346cc6caef9820428);
+        
+    
+        var popup_8621d76c8bd3af5c3151558acc0940bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffc571e111f5ad5281daece7973ae21 = $(`<div id="html_8ffc571e111f5ad5281daece7973ae21" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_8621d76c8bd3af5c3151558acc0940bd.setContent(html_8ffc571e111f5ad5281daece7973ae21);
+            
+        
+
+        marker_c5f353bbb5f40e60eab8e397126aa2c5.bindPopup(popup_8621d76c8bd3af5c3151558acc0940bd)
+        ;
+
+        
+    
+    
+            var marker_f608ef298468352adc676f66f579a834 = L.marker(
+                [35.404, -97.34],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_6ac8f0a71a2b1ccf55de8fd07a584874 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f608ef298468352adc676f66f579a834.setIcon(icon_6ac8f0a71a2b1ccf55de8fd07a584874);
+        
+    
+        var popup_eedcc7eafefc0a791afc6d0cdba59a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e043dcd0347ab468b9fa038244470242 = $(`<div id="html_e043dcd0347ab468b9fa038244470242" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_eedcc7eafefc0a791afc6d0cdba59a73.setContent(html_e043dcd0347ab468b9fa038244470242);
+            
+        
+
+        marker_f608ef298468352adc676f66f579a834.bindPopup(popup_eedcc7eafefc0a791afc6d0cdba59a73)
+        ;
+
+        
+    
+    
+            var marker_f88abe35bf9db7eeaaaf3711bdec8e22 = L.marker(
+                [35.629, -97.274],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_02d27bdac8e0c96f647c2771f5af7622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f88abe35bf9db7eeaaaf3711bdec8e22.setIcon(icon_02d27bdac8e0c96f647c2771f5af7622);
+        
+    
+        var popup_48923f94fc7b7153d26eb9305fd529d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f2c5f5653ab3e6ed2fc1db48e043116 = $(`<div id="html_3f2c5f5653ab3e6ed2fc1db48e043116" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_48923f94fc7b7153d26eb9305fd529d6.setContent(html_3f2c5f5653ab3e6ed2fc1db48e043116);
+            
+        
+
+        marker_f88abe35bf9db7eeaaaf3711bdec8e22.bindPopup(popup_48923f94fc7b7153d26eb9305fd529d6)
+        ;
+
+        
+    
+    
+            var marker_f28a7d92fd71ec833a066eecd91321c3 = L.marker(
+                [35.319, -97.205],
+                {}
+            ).addTo(map_1810c75a1d3e034b63ed6bc590a714c8);
+        
+    
+            var icon_c872b8fe0b19c562171ea89ceab77f1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f28a7d92fd71ec833a066eecd91321c3.setIcon(icon_c872b8fe0b19c562171ea89ceab77f1e);
+        
+    
+        var popup_b1aefb599041c8063505f356d3ef790d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a64aee75a08d8b519c16c1631719b1d9 = $(`<div id="html_a64aee75a08d8b519c16c1631719b1d9" style="width: 100.0%; height: 100.0%;">Oklahoma City, OK</div>`)[0];
+                popup_b1aefb599041c8063505f356d3ef790d.setContent(html_a64aee75a08d8b519c16c1631719b1d9);
+            
+        
+
+        marker_f28a7d92fd71ec833a066eecd91321c3.bindPopup(popup_b1aefb599041c8063505f356d3ef790d)
+        ;
+
+        
+    
+</script>
+</html>
